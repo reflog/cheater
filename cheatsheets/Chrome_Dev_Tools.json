@@ -1,0 +1,447 @@
+{
+  "categories": [
+    {
+      "name": "Tools",
+      "commands": [
+        {
+          "command": "<control><ALT>U",
+          "name": "View source",
+          "notes": "",
+          "orig": "View source"
+        },
+        {
+          "command": "<control><ALT>I",
+          "name": "Developers tools",
+          "notes": "",
+          "orig": "Developers tools"
+        },
+        {
+          "command": "<control><ALT>J",
+          "name": "Command palette",
+          "notes": "",
+          "orig": "Command palette"
+        }
+      ]
+    },
+    {
+      "name": "All Panels",
+      "commands": [
+        {
+          "command": "<control>leftanglebracket",
+          "name": "Go to the panel to the left",
+          "notes": "",
+          "orig": "Go to the panel to the left"
+        },
+        {
+          "command": "<control>rightanglebracket",
+          "name": "Go to the panel to the right",
+          "notes": "",
+          "orig": "Go to the panel to the right"
+        },
+        {
+          "command": "<control><ALT>leftanglebracket",
+          "name": "Go back in panel history",
+          "notes": "",
+          "orig": "Go back in panel history"
+        },
+        {
+          "command": "<control><ALT>rightanglebracket",
+          "name": "Go forward in panel history",
+          "notes": "",
+          "orig": "Go forward in panel history"
+        },
+        {
+          "command": "<control>1minus9",
+          "name": "Jump to panel 1-9",
+          "notes": "",
+          "orig": "Jump to panel 1-9"
+        },
+        {
+          "command": "<control>~",
+          "name": "Show console",
+          "notes": "",
+          "orig": "Show console"
+        },
+        {
+          "command": "<control>R",
+          "name": "Refresh the page",
+          "notes": "",
+          "orig": "Refresh the page"
+        },
+        {
+          "command": "<control><shift>R",
+          "name": "Refresh the page ignoring cached content",
+          "notes": "",
+          "orig": "Refresh the page ignoring cached content"
+        },
+        {
+          "command": "<control>F",
+          "name": "Search",
+          "notes": "",
+          "orig": "Search"
+        },
+        {
+          "command": "<control><ALT>F",
+          "name": "Search across all sources",
+          "notes": "",
+          "orig": "Search across all sources"
+        },
+        {
+          "command": "<control>O",
+          "name": "Search by filename",
+          "notes": "",
+          "orig": "Search by filename"
+        },
+        {
+          "command": "<control><shift>C",
+          "name": "Select node to inspect",
+          "notes": "",
+          "orig": "Select node to inspect"
+        },
+        {
+          "command": "<control>O",
+          "name": "Go to source",
+          "notes": "",
+          "orig": "Go to source"
+        },
+        {
+          "command": "<control>G",
+          "name": "Find next",
+          "notes": "",
+          "orig": "Find next"
+        },
+        {
+          "command": "<control><shift>G",
+          "name": "Find previous",
+          "notes": "",
+          "orig": "Find previous"
+        },
+        {
+          "command": "<control>G",
+          "name": "Go to line",
+          "notes": "",
+          "orig": "Go to line"
+        },
+        {
+          "command": "F1",
+          "name": "Show general settings",
+          "notes": "",
+          "orig": "Show general settings"
+        },
+        {
+          "command": "Esc",
+          "name": "Hide general settings",
+          "notes": "",
+          "orig": "Hide general settings"
+        }
+      ]
+    },
+    {
+      "name": "Console",
+      "commands": [
+        {
+          "command": "<control>K",
+          "name": "Clear console",
+          "notes": "",
+          "orig": "Clear console"
+        },
+        {
+          "command": "Tab",
+          "name": "Next suggestion",
+          "notes": "",
+          "orig": "Next suggestion"
+        },
+        {
+          "command": "<shift>Tab",
+          "name": "Previous suggestion",
+          "notes": "",
+          "orig": "Previous suggestion"
+        },
+        {
+          "command": "rightarrow",
+          "name": "Accept suggestion",
+          "notes": "",
+          "orig": "Accept suggestion"
+        },
+        {
+          "command": "<ALT>N",
+          "name": "Next command",
+          "notes": "",
+          "orig": "Next command"
+        },
+        {
+          "command": "<ALT>P",
+          "name": "Previous command",
+          "notes": "",
+          "orig": "Previous command"
+        },
+        {
+          "command": "<control>Return",
+          "name": "Multi-line entry",
+          "notes": "",
+          "orig": "Multi-line entry"
+        },
+        {
+          "command": "Return",
+          "name": "Execute",
+          "notes": "",
+          "orig": "Execute"
+        }
+      ]
+    },
+    {
+      "name": "Elements Panel",
+      "commands": [
+        {
+          "command": "uparrow",
+          "name": "Navigate elements",
+          "notes": "",
+          "orig": "Navigate elements"
+        },
+        {
+          "command": "rightarrow",
+          "name": "Expand node",
+          "notes": "",
+          "orig": "Expand node"
+        },
+        {
+          "command": "leftarrow",
+          "name": "Collapse node",
+          "notes": "",
+          "orig": "Collapse node"
+        },
+        {
+          "command": "Return",
+          "name": "Edit attribute",
+          "notes": "",
+          "orig": "Edit attribute"
+        },
+        {
+          "command": "H",
+          "name": "Hide element",
+          "notes": "",
+          "orig": "Hide element"
+        },
+        {
+          "command": "F2",
+          "name": "Toggle edit as HTML",
+          "notes": "",
+          "orig": "Toggle edit as HTML"
+        }
+      ]
+    },
+    {
+      "name": "Styles Pane",
+      "commands": [
+        {
+          "command": "Click",
+          "name": "Edit rule",
+          "notes": "",
+          "orig": "Edit rule"
+        },
+        {
+          "command": "Click+on+whitespace",
+          "name": "Insert new property",
+          "notes": "",
+          "orig": "Insert new property"
+        },
+        {
+          "command": "Tab",
+          "name": "Edit next property",
+          "notes": "",
+          "orig": "Edit next property"
+        },
+        {
+          "command": "<shift>Tab",
+          "name": "Edit previous property",
+          "notes": "",
+          "orig": "Edit previous property"
+        },
+        {
+          "command": "uparrow",
+          "name": "Increment value by 1",
+          "notes": "",
+          "orig": "Increment value by 1"
+        },
+        {
+          "command": "downarrow",
+          "name": "Decrement value by 1",
+          "notes": "",
+          "orig": "Decrement value by 1"
+        },
+        {
+          "command": "<shift>uparrow",
+          "name": "Increment value by 10",
+          "notes": "",
+          "orig": "Increment value by 10"
+        },
+        {
+          "command": "<shift>downarrow",
+          "name": "Decrement value by 10",
+          "notes": "",
+          "orig": "Decrement value by 10"
+        },
+        {
+          "command": "<shift>Page+Up",
+          "name": "Increment value by 100",
+          "notes": "",
+          "orig": "Increment value by 100"
+        },
+        {
+          "command": "<shift>Page+Down",
+          "name": "Decrement value by 100",
+          "notes": "",
+          "orig": "Decrement value by 100"
+        },
+        {
+          "command": "<ALT>uparrow",
+          "name": "Increment value by 0.1",
+          "notes": "",
+          "orig": "Increment value by 0.1"
+        },
+        {
+          "command": "<ALT>downarrow",
+          "name": "Decrement value by 0.1",
+          "notes": "",
+          "orig": "Decrement value by 0.1"
+        }
+      ]
+    },
+    {
+      "name": "Sources Panel",
+      "commands": [
+        {
+          "command": "F8",
+          "name": "Pause or continue",
+          "notes": "",
+          "orig": "Pause or continue"
+        },
+        {
+          "command": "F10",
+          "name": "Step over",
+          "notes": "",
+          "orig": "Step over"
+        },
+        {
+          "command": "F11",
+          "name": "Step into",
+          "notes": "",
+          "orig": "Step into"
+        },
+        {
+          "command": "<control>F11",
+          "name": "Step into selection",
+          "notes": "",
+          "orig": "Step into selection"
+        },
+        {
+          "command": "<shift>F11",
+          "name": "Step out",
+          "notes": "",
+          "orig": "Step out"
+        },
+        {
+          "command": "<control>decimalpoint",
+          "name": "Next call frame",
+          "notes": "",
+          "orig": "Next call frame"
+        },
+        {
+          "command": "<control>,",
+          "name": "Previous call frame",
+          "notes": "",
+          "orig": "Previous call frame"
+        },
+        {
+          "command": "<control><shift>E",
+          "name": "Evaluate selection in console",
+          "notes": "",
+          "orig": "Evaluate selection in console"
+        },
+        {
+          "command": "<control><shift>A",
+          "name": "Add selection to watch",
+          "notes": "",
+          "orig": "Add selection to watch"
+        },
+        {
+          "command": "<control><shift>O",
+          "name": "Go to member",
+          "notes": "",
+          "orig": "Go to member"
+        },
+        {
+          "command": "<control>B",
+          "name": "Toggle breakpoint",
+          "notes": "",
+          "orig": "Toggle breakpoint"
+        },
+        {
+          "command": "<control>slash",
+          "name": "Toggle comment",
+          "notes": "",
+          "orig": "Toggle comment"
+        },
+        {
+          "command": "<ALT>uparrow",
+          "name": "Increment CSS unit by 1",
+          "notes": "",
+          "orig": "Increment CSS unit by 1"
+        },
+        {
+          "command": "<ALT>downarrow",
+          "name": "Decrement CSS unit by 1",
+          "notes": "",
+          "orig": "Decrement CSS unit by 1"
+        },
+        {
+          "command": "<ALT>Page+Up",
+          "name": "Increment CSS unit by 10",
+          "notes": "",
+          "orig": "Increment CSS unit by 10"
+        },
+        {
+          "command": "<ALT>Page+Down",
+          "name": "Decrement CSS unit by 10",
+          "notes": "",
+          "orig": "Decrement CSS unit by 10"
+        }
+      ]
+    },
+    {
+      "name": "Timeline Panel",
+      "commands": [
+        {
+          "command": "<control>E",
+          "name": "Start or stop recording",
+          "notes": "",
+          "orig": "Start or stop recording"
+        },
+        {
+          "command": "<control>S",
+          "name": "Save timeline data",
+          "notes": "",
+          "orig": "Save timeline data"
+        },
+        {
+          "command": "<control>O",
+          "name": "Load timeline data",
+          "notes": "",
+          "orig": "Load timeline data"
+        }
+      ]
+    },
+    {
+      "name": "Profiles Panel",
+      "commands": [
+        {
+          "command": "<control>E",
+          "name": "Start or stop recording",
+          "notes": "",
+          "orig": "Start or stop recording"
+        }
+      ]
+    }
+  ],
+  "title": "Chrome Developer Tools"
+}

@@ -1,0 +1,170 @@
+{
+  "categories": [
+    {
+      "name": "Device Button Key Mappings",
+      "commands": [
+        {
+          "command": "HOME",
+          "name": "Home",
+          "notes": "",
+          "orig": "HOME"
+        },
+        {
+          "command": "F2",
+          "name": "Menu (left softkey)",
+          "notes": "",
+          "orig": "F2"
+        },
+        {
+          "command": "<shift>F2",
+          "name": "Star (right softkey)",
+          "notes": "",
+          "orig": "shift+F2"
+        },
+        {
+          "command": "Esc",
+          "name": "Back",
+          "notes": "",
+          "orig": "Esc"
+        },
+        {
+          "command": "F3",
+          "name": "Call/dial button",
+          "notes": "",
+          "orig": "F3"
+        },
+        {
+          "command": "F4",
+          "name": "Hangup/end call button",
+          "notes": "",
+          "orig": "F4"
+        },
+        {
+          "command": "F5",
+          "name": "Search",
+          "notes": "",
+          "orig": "F5"
+        },
+        {
+          "command": "F7",
+          "name": "Power button",
+          "notes": "",
+          "orig": "F7"
+        },
+        {
+          "command": "KEYPAD_PLUS",
+          "name": "Audio Volume Up button",
+          "notes": "",
+          "orig": "KEYPAD_PLUS"
+        },
+        {
+          "command": "KEYPAD_MINUS",
+          "name": "Audio Volume Down button",
+          "notes": "",
+          "orig": "KEYPAD_MINUS"
+        },
+        {
+          "command": "<control>KEYPAD_5",
+          "name": "Camera button",
+          "notes": "",
+          "orig": "control+KEYPAD_5"
+        }
+      ]
+    },
+    {
+      "name": "Emulator Control Key Mappings",
+      "commands": [
+        {
+          "command": "KEYPAD_7",
+          "name": "Switch to previous layout orientation",
+          "notes": "",
+          "orig": "KEYPAD_7"
+        },
+        {
+          "command": "KEYPAD_9",
+          "name": "Switch to next layout orientation",
+          "notes": "",
+          "orig": "KEYPAD_9"
+        },
+        {
+          "command": "F8",
+          "name": "Toggle cell networking on/off",
+          "notes": "",
+          "orig": "F8"
+        },
+        {
+          "command": "F9",
+          "name": "Toggle code profiling (only with `--trace` startup option)",
+          "notes": "",
+          "orig": "F9"
+        },
+        {
+          "command": "<ALT>Return",
+          "name": "Toggle fullscreen mode",
+          "notes": "",
+          "orig": "ALT+Return"
+        },
+        {
+          "command": "F6",
+          "name": "Toggle trackball mode",
+          "notes": "",
+          "orig": "F6"
+        },
+        {
+          "command": "Delete",
+          "name": "Enter trackball mode temporarily (while key is pressed)",
+          "notes": "",
+          "orig": "Delete"
+        },
+        {
+          "command": "KEYPAD_MULTIPLY",
+          "name": "Onion alpha increase",
+          "notes": "",
+          "orig": "KEYPAD_MULTIPLY"
+        },
+        {
+          "command": "KEYPAD_DIVIDE",
+          "name": "Onion alpha decrease",
+          "notes": "",
+          "orig": "KEYPAD_DIVIDE"
+        }
+      ]
+    },
+    {
+      "name": "DPad Key Mappings",
+      "commands": [
+        {
+          "command": "KEYPAD_4",
+          "name": "DPad left",
+          "notes": "",
+          "orig": "KEYPAD_4"
+        },
+        {
+          "command": "KEYPAD_8",
+          "name": "DPad up",
+          "notes": "",
+          "orig": "KEYPAD_8"
+        },
+        {
+          "command": "KEYPAD_6",
+          "name": "DPad right",
+          "notes": "",
+          "orig": "KEYPAD_6"
+        },
+        {
+          "command": "KEYPAD_2",
+          "name": "DPad down",
+          "notes": "",
+          "orig": "KEYPAD_2"
+        },
+        {
+          "command": "KEYPAD_5",
+          "name": "DPad center click",
+          "notes": "",
+          "orig": "KEYPAD_5"
+        }
+      ]
+    }
+  ],
+  "title": "Android Emulator"
+}

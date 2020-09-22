@@ -1,0 +1,309 @@
+{
+  "categories": [
+    {
+      "name": "Repository Management",
+      "commands": [
+        {
+          "command": "<control>0",
+          "name": "Show repository browser",
+          "notes": "Opens the Repository Browser window.",
+          "orig": "control+0"
+        },
+        {
+          "command": "<control><shift>H",
+          "name": "Show remote hosted repositories",
+          "notes": "Show the Repository Browser and select the Remote section.",
+          "orig": "control+shift+H"
+        }
+      ]
+    },
+    {
+      "name": "UI Customization",
+      "commands": [
+        {
+          "command": "<control><shift>K",
+          "name": "Show/Hide sidebar",
+          "notes": "Toggle the current repository's sidebar (branches, tags, and more.)",
+          "orig": "control+shift+K"
+        },
+        {
+          "command": "<control><control>W",
+          "name": "Show/Hide command history",
+          "notes": "Toggle the current repository's command history to view details.",
+          "orig": "control+control+W"
+        },
+        {
+          "command": "<control>1",
+          "name": "File status view",
+          "notes": "Switch to the file browser and commit preparation area.",
+          "orig": "control+1"
+        },
+        {
+          "command": "<control>2",
+          "name": "History view",
+          "notes": "Switch to the primary commit history browser area.",
+          "orig": "control+2"
+        },
+        {
+          "command": "<control>3",
+          "name": "Search view",
+          "notes": "Switch to the commit history search area.",
+          "orig": "control+3"
+        }
+      ]
+    },
+    {
+      "name": "Git Actions",
+      "commands": [
+        {
+          "command": "<control><shift>F",
+          "name": "Fetch...",
+          "notes": "Retrieve the current repository's branches, tags, and history from the remote server.",
+          "orig": "control+shift+F"
+        },
+        {
+          "command": "<control><shift>minus",
+          "name": "Unstage from index",
+          "notes": "Remove the selected item(s) from the staging area prior to committing.",
+          "orig": "control+shift+minus"
+        }
+      ]
+    },
+    {
+      "name": "Mercurial Actions",
+      "commands": [
+        {
+          "command": "<control><shift>U",
+          "name": "Update",
+          "notes": "Retrieve the current repository's state from the remote server.",
+          "orig": "control+shift+U"
+        }
+      ]
+    },
+    {
+      "name": "Repository Actions",
+      "commands": [
+        {
+          "command": "<control><shift>,",
+          "name": "Repository settings...",
+          "notes": "Configure settings for the current repository.",
+          "orig": "control+shift+,"
+        },
+        {
+          "command": "<control>R",
+          "name": "Refresh",
+          "notes": "Reload the current repository's commit history graph, file status, and build status.",
+          "orig": "control+R"
+        },
+        {
+          "command": "<control><ALT>R",
+          "name": "Refresh remote status",
+          "notes": "Reload the current repository's status from the remote server.",
+          "orig": "control+ALT+R"
+        },
+        {
+          "command": "<control><shift>C",
+          "name": "Commit...",
+          "notes": "Go to current repository's File Status view, focus the message editor, and populate with a message template if available.",
+          "orig": "control+shift+C"
+        },
+        {
+          "command": "<control><shift>R",
+          "name": "Revert... *or* Reset...",
+          "notes": "Begin reverting one or more of the current repository's in-progress changes.",
+          "orig": "control+shift+R"
+        },
+        {
+          "command": "<control><shift>S",
+          "name": "Stash *or* Shelve",
+          "notes": "Save the current repository's in-progress changes for later use.",
+          "orig": "control+shift+S"
+        },
+        {
+          "command": "<control><shift>P",
+          "name": "Push...",
+          "notes": "Send local commits for the current repository to the remote server.",
+          "orig": "control+shift+P"
+        },
+        {
+          "command": "<control><shift>L",
+          "name": "Pull...",
+          "notes": "Retrieve any new commits for the current repository from the remote server.",
+          "orig": "control+shift+L"
+        },
+        {
+          "command": "<control><ALT>U",
+          "name": "Update to... *or* Checkout...",
+          "notes": "Switch to a particular branch or revision in the current repository.",
+          "orig": "control+ALT+U"
+        },
+        {
+          "command": "<control><shift>B",
+          "name": "Branch...",
+          "notes": "Create a new branch from the currently active branch.",
+          "orig": "control+shift+B"
+        },
+        {
+          "command": "<control><shift>M",
+          "name": "Merge...",
+          "notes": "Start the process of combining the target branch into the active one in the current repository.",
+          "orig": "control+shift+M"
+        },
+        {
+          "command": "<control><shift>T",
+          "name": "Tag...",
+          "notes": "Create a new tag for the active branch and commit in the current repository.",
+          "orig": "control+shift+T"
+        },
+        {
+          "command": "<control><shift>W",
+          "name": "View remote",
+          "notes": "Open the remote server's website (if available) for the current repository.",
+          "orig": "control+shift+W"
+        },
+        {
+          "command": "<control><ALT>P",
+          "name": "Create pull request...",
+          "notes": "Start a pull request on the remote server for the current active branch.",
+          "orig": "control+ALT+P"
+        }
+      ]
+    },
+    {
+      "name": "Item Actions",
+      "commands": [
+        {
+          "command": "<control><shift>O",
+          "name": "Open",
+          "notes": "Open the selected item(s) for the current repository.",
+          "orig": "control+shift+O"
+        },
+        {
+          "command": "<control><control>T",
+          "name": "Open in Terminal",
+          "notes": "Open a new Terminal window to the directory for the current repository.",
+          "orig": "control+control+T"
+        },
+        {
+          "command": "space",
+          "name": "Quick Look",
+          "notes": "Display a preview of the selected item(s)'s contents if possible.",
+          "orig": "space"
+        },
+        {
+          "command": "<control><shift>equal",
+          "name": "Add",
+          "notes": "Add the selected untracked item(s) to the current repository's index, making them available for commit.",
+          "orig": "control+shift+equal"
+        },
+        {
+          "command": "<control>Delete",
+          "name": "Remove",
+          "notes": "Remove the selected item(s) from the current repository's index and on-disk; requires a commit to save.",
+          "orig": "control+Delete"
+        },
+        {
+          "command": "<control><ALT><shift>equal",
+          "name": "Add / Remove",
+          "notes": "Combines the Add and Remove actions (see their entries) into a single task for all the selected item(s).",
+          "orig": "control+ALT+shift+equal"
+        },
+        {
+          "command": "<control><ALT>R",
+          "name": "Reset... *or* Revert...",
+          "notes": "Begin reverting in-progress changes for the selected item(s).",
+          "orig": "control+ALT+R"
+        },
+        {
+          "command": "<control><ALT>L",
+          "name": "Log selected...",
+          "notes": "Show a list of commits specific to the selected item in reverse chronological order.",
+          "orig": "control+ALT+L"
+        },
+        {
+          "command": "<control><ALT>B",
+          "name": "Annotate selected...",
+          "notes": "Display the contents of the selected item, as lines, with the latest commit's information (author, date, metadata) alongside.",
+          "orig": "control+ALT+B"
+        }
+      ]
+    },
+    {
+      "name": "Resolving Conflicts",
+      "commands": [
+
+      ]
+    },
+    {
+      "name": "Git LFS",
+      "commands": [
+
+      ]
+    },
+    {
+      "name": "Git/Hg Flow",
+      "commands": [
+        {
+          "command": "<control><ALT>F",
+          "name": "Next action...",
+          "notes": "Begin the next Flow action based on what's currently in progress for the current repository.",
+          "orig": "control+ALT+F"
+        }
+      ]
+    },
+    {
+      "name": "Text Formatting",
+      "commands": [
+        {
+          "command": "<control><ALT>minus",
+          "name": "Header",
+          "notes": "Wraps the selected text in Markdown syntax for a header.",
+          "orig": "control+ALT+minus"
+        },
+        {
+          "command": "<control><ALT><shift>minus",
+          "name": "Horizontal rule",
+          "notes": "Inserts the Markdown syntax for a single line.",
+          "orig": "control+ALT+shift+minus"
+        },
+        {
+          "command": "<control>B",
+          "name": "Bold",
+          "notes": "Wraps the selected text in Markdown syntax to be **bold**.",
+          "orig": "control+B"
+        },
+        {
+          "command": "<control>I",
+          "name": "Italic",
+          "notes": "Wraps the selected text in Markdown syntax to be *italicized*.",
+          "orig": "control+I"
+        },
+        {
+          "command": "<control>L",
+          "name": "Bulleted list",
+          "notes": "Inserts the Markdown syntax for a bullet at the start of selected text.",
+          "orig": "control+L"
+        },
+        {
+          "command": "<control><ALT>O",
+          "name": "Numbered list",
+          "notes": "Inserts the Markdown syntax for a number sequence at the start of selected text.",
+          "orig": "control+ALT+O"
+        },
+        {
+          "command": "<control>'",
+          "name": "Code block",
+          "notes": "Wraps the selected text in Markdown syntax to be formatted as code.",
+          "orig": "control+'"
+        },
+        {
+          "command": "<control><ALT>K",
+          "name": "Link",
+          "notes": "Wraps the selected text in Markdown syntax for a link, focused to edit the URL portion.",
+          "orig": "control+ALT+K"
+        }
+      ]
+    }
+  ],
+  "title": "Sourcetree"
+}

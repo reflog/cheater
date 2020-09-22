@@ -1,0 +1,181 @@
+{
+  "categories": [
+    {
+      "name": "General",
+      "commands": [
+        {
+          "command": "<control><ALT>B",
+          "name": "Toggle sidebar",
+          "notes": "",
+          "orig": "control+ALT+B"
+        },
+        {
+          "command": "<control><ALT>P",
+          "name": "Toggle preview",
+          "notes": "",
+          "orig": "control+ALT+P"
+        },
+        {
+          "command": "<control><control><ALT>P",
+          "name": "Preview in Safari",
+          "notes": "",
+          "orig": "control+control+ALT+P"
+        },
+        {
+          "command": "<control><ALT>T",
+          "name": "Toggle symbol list",
+          "notes": "",
+          "orig": "control+ALT+T"
+        }
+      ]
+    },
+    {
+      "name": "Files",
+      "commands": [
+        {
+          "command": "<control>N",
+          "name": "New file/folder",
+          "notes": "",
+          "orig": "control+N"
+        },
+        {
+          "command": "<control>E",
+          "name": "Edit file",
+          "notes": "",
+          "orig": "control+E"
+        },
+        {
+          "command": "<control>F",
+          "name": "Toggle find/replace",
+          "notes": "",
+          "orig": "control+F"
+        },
+        {
+          "command": "<control><ALT>uparrow",
+          "name": "Upload file",
+          "notes": "",
+          "orig": "control+ALT+uparrow"
+        },
+        {
+          "command": "<control><ALT>downarrow",
+          "name": "Download file",
+          "notes": "",
+          "orig": "control+ALT+downarrow"
+        },
+        {
+          "command": "<control><ALT>I",
+          "name": "Toggle file properties",
+          "notes": "",
+          "orig": "control+ALT+I"
+        }
+      ]
+    },
+    {
+      "name": "Code Editor",
+      "commands": [
+        {
+          "command": "<control>leftanglebracket",
+          "name": "Shift left",
+          "notes": "",
+          "orig": "control+leftanglebracket"
+        },
+        {
+          "command": "<control>rightanglebracket",
+          "name": "Shift right",
+          "notes": "",
+          "orig": "control+rightanglebracket"
+        },
+        {
+          "command": "<control><control>E",
+          "name": "Expand Emmet abbreviation",
+          "notes": "",
+          "orig": "control+control+E"
+        },
+        {
+          "command": "<control><control>A",
+          "name": "Wrap with Emmet abbreviation",
+          "notes": "",
+          "orig": "control+control+A"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "commands": [
+        {
+          "command": "<control>Tab",
+          "name": "Select next tab",
+          "notes": "",
+          "orig": "control+Tab"
+        },
+        {
+          "command": "<control><shift>Tab",
+          "name": "Select previous tab",
+          "notes": "",
+          "orig": "control+shift+Tab"
+        },
+        {
+          "command": "<control>1",
+          "name": "Show first tab",
+          "notes": "",
+          "orig": "control+1"
+        },
+        {
+          "command": "<control>2",
+          "name": "Show second tab",
+          "notes": "",
+          "orig": "control+2"
+        },
+        {
+          "command": "<control>3",
+          "name": "Show third tab",
+          "notes": "",
+          "orig": "control+3"
+        },
+        {
+          "command": "<control>4",
+          "name": "Show fourth tab",
+          "notes": "",
+          "orig": "control+4"
+        },
+        {
+          "command": "<control>5",
+          "name": "Show fifth tab",
+          "notes": "",
+          "orig": "control+5"
+        },
+        {
+          "command": "<control>6",
+          "name": "Show sixth tab",
+          "notes": "",
+          "orig": "control+6"
+        },
+        {
+          "command": "<control>7",
+          "name": "Show seventh tab",
+          "notes": "",
+          "orig": "control+7"
+        },
+        {
+          "command": "<control>8",
+          "name": "Show eighth tab",
+          "notes": "",
+          "orig": "control+8"
+        },
+        {
+          "command": "<control>9",
+          "name": "Show ninth tab",
+          "notes": "",
+          "orig": "control+9"
+        },
+        {
+          "command": "<control>0",
+          "name": "Show tenth tab",
+          "notes": "",
+          "orig": "control+0"
+        }
+      ]
+    }
+  ],
+  "title": "Textastic"
+}

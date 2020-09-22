@@ -1,0 +1,344 @@
+{
+  "categories": [
+    {
+      "name": "General",
+      "commands": [
+        {
+          "command": "<control><shift>P",
+          "name": "Toggle command palette",
+          "notes": "",
+          "orig": "control+shift+P"
+        },
+        {
+          "command": "<control>slash",
+          "name": "Comment line or selection",
+          "notes": "",
+          "orig": "control+slash"
+        },
+        {
+          "command": "<control>space",
+          "name": "Show available auto-completions",
+          "notes": "",
+          "orig": "control+space"
+        },
+        {
+          "command": "<control><shift>L",
+          "name": "Select grammar (set/change syntax)",
+          "notes": "",
+          "orig": "control+shift+L"
+        },
+        {
+          "command": "<control>,",
+          "name": "Open settings",
+          "notes": "",
+          "orig": "control+,"
+        }
+      ]
+    },
+    {
+      "name": "Find",
+      "commands": [
+        {
+          "command": "<control>F",
+          "name": "Find in file",
+          "notes": "",
+          "orig": "control+F"
+        },
+        {
+          "command": "<control>G",
+          "name": "Find next",
+          "notes": "",
+          "orig": "control+G"
+        },
+        {
+          "command": "<control><shift>F",
+          "name": "Find in project",
+          "notes": "",
+          "orig": "control+shift+F"
+        },
+        {
+          "command": "<control>E",
+          "name": "Use selection for find",
+          "notes": "",
+          "orig": "control+E"
+        }
+      ]
+    },
+    {
+      "name": "View / Window Manipulation",
+      "commands": [
+        {
+          "command": "<control>backslash",
+          "name": "Toggle tree-view sidebar",
+          "notes": "",
+          "orig": "control+backslash"
+        },
+        {
+          "command": "<control><control>F",
+          "name": "Toggle fullscreen",
+          "notes": "",
+          "orig": "control+control+F"
+        },
+        {
+          "command": "<control>K,+Arrow+Key",
+          "name": "Split pane left, right, up or down",
+          "notes": "",
+          "orig": "control+K, Arrow Key"
+        },
+        {
+          "command": "<control>KArrow+Key",
+          "name": "Focus pane left, right, up or down",
+          "notes": "",
+          "orig": "control+K+Arrow Key"
+        }
+      ]
+    },
+    {
+      "name": "File Navigation",
+      "commands": [
+        {
+          "command": "<control>P",
+          "name": "Toggle file finder",
+          "notes": "",
+          "orig": "control+P"
+        },
+        {
+          "command": "<control>G",
+          "name": "Go to line",
+          "notes": "",
+          "orig": "control+G"
+        },
+        {
+          "command": "<control>R",
+          "name": "Go to symbol",
+          "notes": "",
+          "orig": "control+R"
+        },
+        {
+          "command": "<control><shift>}",
+          "name": "Next file",
+          "notes": "",
+          "orig": "control+shift+}"
+        },
+        {
+          "command": "<control><shift>{",
+          "name": "Previous file",
+          "notes": "",
+          "orig": "control+shift+{"
+        },
+        {
+          "command": "<control>F2",
+          "name": "Set bookmark",
+          "notes": "",
+          "orig": "control+F2"
+        },
+        {
+          "command": "F2",
+          "name": "Go to next bookmark",
+          "notes": "",
+          "orig": "F2"
+        }
+      ]
+    },
+    {
+      "name": "Git Integration",
+      "commands": [
+        {
+          "command": "<control><shift>B",
+          "name": "Git status list",
+          "notes": "",
+          "orig": "control+shift+B"
+        },
+        {
+          "command": "<control><ALT>Z",
+          "name": "Checkout head revision",
+          "notes": "",
+          "orig": "control+ALT+Z"
+        },
+        {
+          "command": "<ALT>Gdownarrow",
+          "name": "Move to next diff",
+          "notes": "",
+          "orig": "ALT+G+downarrow"
+        },
+        {
+          "command": "<ALT>Guparrow",
+          "name": "Move to previous diff",
+          "notes": "",
+          "orig": "ALT+G+uparrow"
+        }
+      ]
+    },
+    {
+      "name": "Folding",
+      "commands": [
+        {
+          "command": "<control><ALT>leftanglebracket",
+          "name": "Fold current code block",
+          "notes": "",
+          "orig": "control+ALT+leftanglebracket"
+        },
+        {
+          "command": "<control><ALT>rightanglebracket",
+          "name": "Unfold current code block",
+          "notes": "",
+          "orig": "control+ALT+rightanglebracket"
+        },
+        {
+          "command": "<control><ALT><shift>leftanglebracket",
+          "name": "Fold all code blocks",
+          "notes": "",
+          "orig": "control+ALT+shift+leftanglebracket"
+        },
+        {
+          "command": "<control><ALT><shift>rightanglebracket",
+          "name": "Unfold all code blocks",
+          "notes": "",
+          "orig": "control+ALT+shift+rightanglebracket"
+        },
+        {
+          "command": "<control>1minus9",
+          "name": "Fold code blocks at depth 1-9",
+          "notes": "",
+          "orig": "control+1minus9"
+        }
+      ]
+    },
+    {
+      "name": "Word Manipulation",
+      "commands": [
+        {
+          "command": "<control>T",
+          "name": "Transpose characters either side of cursor",
+          "notes": "",
+          "orig": "control+T"
+        },
+        {
+          "command": "<ALT>Backspace",
+          "name": "Delete text to beginning of word",
+          "notes": "",
+          "orig": "ALT+Backspace"
+        },
+        {
+          "command": "<ALT>Delete",
+          "name": "Delete text to end of word",
+          "notes": "",
+          "orig": "ALT+Delete"
+        }
+      ]
+    },
+    {
+      "name": "Line Manipulation",
+      "commands": [
+        {
+          "command": "<control>rightanglebracket",
+          "name": "Indent current line",
+          "notes": "",
+          "orig": "control+rightanglebracket"
+        },
+        {
+          "command": "<control>leftanglebracket",
+          "name": "Outdent current line",
+          "notes": "",
+          "orig": "control+leftanglebracket"
+        },
+        {
+          "command": "<control>Return",
+          "name": "Insert newline after current line",
+          "notes": "",
+          "orig": "control+Return"
+        },
+        {
+          "command": "<control><shift>Return",
+          "name": "Insert newline before current line",
+          "notes": "",
+          "orig": "control+shift+Return"
+        },
+        {
+          "command": "<control><shift>K",
+          "name": "Delete current line",
+          "notes": "",
+          "orig": "control+shift+K"
+        },
+        {
+          "command": "<control><control>uparrow",
+          "name": "Move current line up",
+          "notes": "",
+          "orig": "control+control+uparrow"
+        },
+        {
+          "command": "<control><control>downarrow",
+          "name": "Move current line down",
+          "notes": "",
+          "orig": "control+control+downarrow"
+        },
+        {
+          "command": "<control><shift>D",
+          "name": "Duplicate current line",
+          "notes": "",
+          "orig": "control+shift+D"
+        },
+        {
+          "command": "<control>J",
+          "name": "Join current and next lines",
+          "notes": "",
+          "orig": "control+J"
+        }
+      ]
+    },
+    {
+      "name": "Selection",
+      "commands": [
+        {
+          "command": "<control>D",
+          "name": "Select current word/token",
+          "notes": "",
+          "orig": "control+D"
+        },
+        {
+          "command": "<control>L",
+          "name": "Select current line",
+          "notes": "",
+          "orig": "control+L"
+        },
+        {
+          "command": "<ALT><shift>leftarrow",
+          "name": "Select to beginning of word",
+          "notes": "",
+          "orig": "ALT+shift+leftarrow"
+        },
+        {
+          "command": "<ALT><shift>rightarrow",
+          "name": "Select to end of word",
+          "notes": "",
+          "orig": "ALT+shift+rightarrow"
+        },
+        {
+          "command": "<control><shift>leftarrow",
+          "name": "Select to first character of line",
+          "notes": "",
+          "orig": "control+shift+leftarrow"
+        },
+        {
+          "command": "<control><shift>rightarrow",
+          "name": "Select to last character of line",
+          "notes": "",
+          "orig": "control+shift+rightarrow"
+        },
+        {
+          "command": "<control><shift>uparrow",
+          "name": "Select to beginning of document",
+          "notes": "",
+          "orig": "control+shift+uparrow"
+        },
+        {
+          "command": "<control><shift>downarrow",
+          "name": "Select to end of document",
+          "notes": "",
+          "orig": "control+shift+downarrow"
+        }
+      ]
+    }
+  ],
+  "title": "Atom"
+}

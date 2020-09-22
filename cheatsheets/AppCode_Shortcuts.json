@@ -1,0 +1,870 @@
+{
+  "categories": [
+    {
+      "name": "General",
+      "commands": [
+        {
+          "command": "<control>0minus9",
+          "name": "Open corresponding tool window",
+          "notes": "",
+          "orig": "control+0minus9"
+        },
+        {
+          "command": "<control><ALT>Y",
+          "name": "Synchronize",
+          "notes": "",
+          "orig": "control+ALT+Y"
+        },
+        {
+          "command": "<control><shift>F12",
+          "name": "Toggle maximizing editor",
+          "notes": "",
+          "orig": "control+shift+F12"
+        },
+        {
+          "command": "<ALT><shift>F",
+          "name": "Add to favorites",
+          "notes": "",
+          "orig": "ALT+shift+F"
+        },
+        {
+          "command": "<ALT><shift>I",
+          "name": "Inspect current file with current profile",
+          "notes": "",
+          "orig": "ALT+shift+I"
+        },
+        {
+          "command": "<control>§",
+          "name": "Quick switch current scheme",
+          "notes": "",
+          "orig": "control+§"
+        },
+        {
+          "command": "<control>Tab",
+          "name": "Switch between tabs and tool window",
+          "notes": "",
+          "orig": "control+Tab"
+        },
+        {
+          "command": "<control><shift>A",
+          "name": "Find action",
+          "notes": "",
+          "orig": "control+shift+A"
+        }
+      ]
+    },
+    {
+      "name": "Editing",
+      "commands": [
+        {
+          "command": "<control>space",
+          "name": "Basic code completion",
+          "notes": "Name of any class, method or variable",
+          "orig": "control+space"
+        },
+        {
+          "command": "<control><shift>space",
+          "name": "Smart code completion",
+          "notes": "Filters the list of methods and variables by expected type",
+          "orig": "control+shift+space"
+        },
+        {
+          "command": "<control><shift>Return",
+          "name": "Complete statement",
+          "notes": "",
+          "orig": "control+shift+Return"
+        },
+        {
+          "command": "<control>J",
+          "name": "Quick documentation lookup",
+          "notes": "",
+          "orig": "control+J"
+        },
+        {
+          "command": "<shift>F1",
+          "name": "External documentation lookup",
+          "notes": "",
+          "orig": "shift+F1"
+        },
+        {
+          "command": "<control>mouse+over+code",
+          "name": "Brief info",
+          "notes": "",
+          "orig": "control+mouse over code"
+        },
+        {
+          "command": "<control>F1",
+          "name": "Show description of error or warning at caret",
+          "notes": "",
+          "orig": "control+F1"
+        },
+        {
+          "command": "<control>N",
+          "name": "Generate code",
+          "notes": "`initWith...`, properties, etc.",
+          "orig": "control+N"
+        },
+        {
+          "command": "<control>O",
+          "name": "Override methods",
+          "notes": "",
+          "orig": "control+O"
+        },
+        {
+          "command": "<control>I",
+          "name": "Implement methods",
+          "notes": "",
+          "orig": "control+I"
+        },
+        {
+          "command": "<control><ALT>T",
+          "name": "Surround with...",
+          "notes": "`if...else`, `for`, `@try...@catch`, `@synchronized`, etc.",
+          "orig": "control+ALT+T"
+        },
+        {
+          "command": "<control>slash",
+          "name": "Comment or uncommment with line comment",
+          "notes": "",
+          "orig": "control+slash"
+        },
+        {
+          "command": "<control><ALT>slash",
+          "name": "Comment or uncommment with block comment",
+          "notes": "",
+          "orig": "control+ALT+slash"
+        },
+        {
+          "command": "<ALT>uparrow",
+          "name": "Select successively increasing code blocks",
+          "notes": "",
+          "orig": "ALT+uparrow"
+        },
+        {
+          "command": "<ALT>downarrow",
+          "name": "Decrease current selection to previous state",
+          "notes": "",
+          "orig": "ALT+downarrow"
+        },
+        {
+          "command": "<control><shift>Q",
+          "name": "Context info",
+          "notes": "",
+          "orig": "control+shift+Q"
+        },
+        {
+          "command": "<ALT>Return",
+          "name": "Show intention actions and quick-fixes",
+          "notes": "",
+          "orig": "ALT+Return"
+        },
+        {
+          "command": "<control><ALT>L",
+          "name": "Reformat code",
+          "notes": "",
+          "orig": "control+ALT+L"
+        },
+        {
+          "command": "<control><ALT>O",
+          "name": "Optimize imports",
+          "notes": "",
+          "orig": "control+ALT+O"
+        },
+        {
+          "command": "<control><ALT>I",
+          "name": "Auto-ident lines",
+          "notes": "",
+          "orig": "control+ALT+I"
+        },
+        {
+          "command": "Tab",
+          "name": "Indent selected lines",
+          "notes": "",
+          "orig": "Tab"
+        },
+        {
+          "command": "<shift>Tab",
+          "name": "Unindent selected lines",
+          "notes": "",
+          "orig": "shift+Tab"
+        },
+        {
+          "command": "<control>X",
+          "name": "Cut current line or selected block to clipboard",
+          "notes": "",
+          "orig": "control+X"
+        },
+        {
+          "command": "<control>C",
+          "name": "Copy current line or selected block to clipboard",
+          "notes": "",
+          "orig": "control+C"
+        },
+        {
+          "command": "<control>V",
+          "name": "Paste from clipboard",
+          "notes": "",
+          "orig": "control+V"
+        },
+        {
+          "command": "<control><shift>V",
+          "name": "Paste from recent buffers",
+          "notes": "",
+          "orig": "control+shift+V"
+        },
+        {
+          "command": "<control>D",
+          "name": "Duplicate current line or selected block",
+          "notes": "",
+          "orig": "control+D"
+        },
+        {
+          "command": "<control>Backspace",
+          "name": "Delete line at caret",
+          "notes": "",
+          "orig": "control+Backspace"
+        },
+        {
+          "command": "<control><shift>J",
+          "name": "Smart line join",
+          "notes": "",
+          "orig": "control+shift+J"
+        },
+        {
+          "command": "<control>Return",
+          "name": "Smart line split",
+          "notes": "",
+          "orig": "control+Return"
+        },
+        {
+          "command": "<shift>Return",
+          "name": "Start new line",
+          "notes": "",
+          "orig": "shift+Return"
+        },
+        {
+          "command": "<control><shift>U",
+          "name": "Toggle case for word at caret or selected block",
+          "notes": "",
+          "orig": "control+shift+U"
+        },
+        {
+          "command": "<control><shift>rightanglebracket",
+          "name": "Select until code block end",
+          "notes": "",
+          "orig": "control+shift+rightanglebracket"
+        },
+        {
+          "command": "<control><shift>leftanglebracket",
+          "name": "Select until code block start",
+          "notes": "",
+          "orig": "control+shift+leftanglebracket"
+        },
+        {
+          "command": "<ALT>Delete",
+          "name": "Delete to word end",
+          "notes": "",
+          "orig": "ALT+Delete"
+        },
+        {
+          "command": "<ALT>Backspace",
+          "name": "Delete to word start",
+          "notes": "",
+          "orig": "ALT+Backspace"
+        },
+        {
+          "command": "<control>\"\"",
+          "name": "Expand code block",
+          "notes": "",
+          "orig": "control+\"+\""
+        },
+        {
+          "command": "<control>\"minus\"",
+          "name": "Collapse code block",
+          "notes": "",
+          "orig": "control+\"minus\""
+        },
+        {
+          "command": "<control><shift>\"\"",
+          "name": "Expand all",
+          "notes": "",
+          "orig": "control+shift+\"+\""
+        },
+        {
+          "command": "<control><shift>\"minus\"",
+          "name": "Collapse all",
+          "notes": "",
+          "orig": "control+shift+\"minus\""
+        },
+        {
+          "command": "<control>W",
+          "name": "Close active editor tab",
+          "notes": "",
+          "orig": "control+W"
+        }
+      ]
+    },
+    {
+      "name": "Multi-Cursor Editing",
+      "commands": [
+        {
+          "command": "<control>G",
+          "name": "Select next occurrence",
+          "notes": "",
+          "orig": "control+G"
+        },
+        {
+          "command": "<control><shift>G",
+          "name": "Unselect last selected occurrence",
+          "notes": "",
+          "orig": "control+shift+G"
+        },
+        {
+          "command": "<control><control>G",
+          "name": "Select all occurrences",
+          "notes": "",
+          "orig": "control+control+G"
+        },
+        {
+          "command": "<ALT>Left+Click",
+          "name": "Add new cursor",
+          "notes": "",
+          "orig": "ALT+Left Click"
+        }
+      ]
+    },
+    {
+      "name": "Search / Replace",
+      "commands": [
+        {
+          "command": "<control>F",
+          "name": "Find",
+          "notes": "",
+          "orig": "control+F"
+        },
+        {
+          "command": "<control>G",
+          "name": "Find next",
+          "notes": "",
+          "orig": "control+G"
+        },
+        {
+          "command": "<control><shift>G",
+          "name": "Find previous",
+          "notes": "",
+          "orig": "control+shift+G"
+        },
+        {
+          "command": "<control>R",
+          "name": "Replace",
+          "notes": "",
+          "orig": "control+R"
+        },
+        {
+          "command": "<control><shift>F",
+          "name": "Find in path",
+          "notes": "",
+          "orig": "control+shift+F"
+        },
+        {
+          "command": "<control><shift>R",
+          "name": "Replace in path",
+          "notes": "",
+          "orig": "control+shift+R"
+        }
+      ]
+    },
+    {
+      "name": "Usage Search",
+      "commands": [
+        {
+          "command": "<ALT>F7",
+          "name": "Find usage",
+          "notes": "",
+          "orig": "ALT+F7"
+        },
+        {
+          "command": "<control>F7",
+          "name": "Find usage in file",
+          "notes": "",
+          "orig": "control+F7"
+        },
+        {
+          "command": "<control><shift>F7",
+          "name": "Highlight usage in file",
+          "notes": "",
+          "orig": "control+shift+F7"
+        },
+        {
+          "command": "<control><ALT>F7",
+          "name": "Show usage",
+          "notes": "",
+          "orig": "control+ALT+F7"
+        }
+      ]
+    },
+    {
+      "name": "Compile and Run",
+      "commands": [
+        {
+          "command": "<control>F9",
+          "name": "Build project",
+          "notes": "",
+          "orig": "control+F9"
+        },
+        {
+          "command": "<control>R",
+          "name": "Run",
+          "notes": "",
+          "orig": "control+R"
+        },
+        {
+          "command": "<control><ALT>R",
+          "name": "Select configuration and run",
+          "notes": "",
+          "orig": "control+ALT+R"
+        },
+        {
+          "command": "<control>D",
+          "name": "Debug",
+          "notes": "",
+          "orig": "control+D"
+        },
+        {
+          "command": "<control><ALT>D",
+          "name": "Select cofiguration and debug",
+          "notes": "",
+          "orig": "control+ALT+D"
+        },
+        {
+          "command": "<control><shift>R",
+          "name": "Run context configuration from editor",
+          "notes": "",
+          "orig": "control+shift+R"
+        }
+      ]
+    },
+    {
+      "name": "Debugging",
+      "commands": [
+        {
+          "command": "F8",
+          "name": "Step over",
+          "notes": "",
+          "orig": "F8"
+        },
+        {
+          "command": "F7",
+          "name": "Step into",
+          "notes": "",
+          "orig": "F7"
+        },
+        {
+          "command": "<shift>F7",
+          "name": "Smart step into",
+          "notes": "",
+          "orig": "shift+F7"
+        },
+        {
+          "command": "<shift>F8",
+          "name": "Step out",
+          "notes": "",
+          "orig": "shift+F8"
+        },
+        {
+          "command": "<ALT>F9",
+          "name": "Run to cursor",
+          "notes": "",
+          "orig": "ALT+F9"
+        },
+        {
+          "command": "<ALT>F8",
+          "name": "Evaluate expression",
+          "notes": "",
+          "orig": "ALT+F8"
+        },
+        {
+          "command": "<control><ALT>R",
+          "name": "Resume program",
+          "notes": "",
+          "orig": "control+ALT+R"
+        },
+        {
+          "command": "<control>F8",
+          "name": "Toggle breakpoint",
+          "notes": "",
+          "orig": "control+F8"
+        },
+        {
+          "command": "<control><shift>F8",
+          "name": "View breakpoints",
+          "notes": "",
+          "orig": "control+shift+F8"
+        }
+      ]
+    },
+    {
+      "name": "Navigation",
+      "commands": [
+        {
+          "command": "<control>O",
+          "name": "Go to class",
+          "notes": "",
+          "orig": "control+O"
+        },
+        {
+          "command": "<control><shift>O",
+          "name": "Go to file",
+          "notes": "",
+          "orig": "control+shift+O"
+        },
+        {
+          "command": "<control><ALT>O",
+          "name": "Go to symbol",
+          "notes": "",
+          "orig": "control+ALT+O"
+        },
+        {
+          "command": "<control>leftarrow",
+          "name": "Go to previous editor tab",
+          "notes": "",
+          "orig": "control+leftarrow"
+        },
+        {
+          "command": "<control>rightarrow",
+          "name": "Go to next editor tab",
+          "notes": "",
+          "orig": "control+rightarrow"
+        },
+        {
+          "command": "F12",
+          "name": "Go back to previous tool window",
+          "notes": "",
+          "orig": "F12"
+        },
+        {
+          "command": "Esc",
+          "name": "Go to editor (from tool window)",
+          "notes": "",
+          "orig": "Esc"
+        },
+        {
+          "command": "<shift>Esc",
+          "name": "Hide active or last active Window",
+          "notes": "",
+          "orig": "shift+Esc"
+        },
+        {
+          "command": "<control><shift>F4",
+          "name": "Close active tab",
+          "notes": "",
+          "orig": "control+shift+F4"
+        },
+        {
+          "command": "<control>L",
+          "name": "Go to line",
+          "notes": "",
+          "orig": "control+L"
+        },
+        {
+          "command": "<control>E",
+          "name": "Recent files popup",
+          "notes": "",
+          "orig": "control+E"
+        },
+        {
+          "command": "<control><ALT>leftarrow",
+          "name": "Navigate back",
+          "notes": "",
+          "orig": "control+ALT+leftarrow"
+        },
+        {
+          "command": "<control><ALT>rightarrow",
+          "name": "Navigate forward",
+          "notes": "",
+          "orig": "control+ALT+rightarrow"
+        },
+        {
+          "command": "<control><shift>Delete",
+          "name": "Navigate to last edit location",
+          "notes": "",
+          "orig": "control+shift+Delete"
+        },
+        {
+          "command": "<control><ALT>leftarrow",
+          "name": "Navigate back",
+          "notes": "",
+          "orig": "control+ALT+leftarrow"
+        },
+        {
+          "command": "<ALT>F1",
+          "name": "Select current file or symbol in any view",
+          "notes": "",
+          "orig": "ALT+F1"
+        },
+        {
+          "command": "<control><control>uparrow",
+          "name": "Go to related header or source file",
+          "notes": "",
+          "orig": "control+control+uparrow"
+        },
+        {
+          "command": "<control>B",
+          "name": "Go to definition",
+          "notes": "",
+          "orig": "control+B"
+        },
+        {
+          "command": "<control><ALT>B",
+          "name": "Go to implementation(s)",
+          "notes": "",
+          "orig": "control+ALT+B"
+        },
+        {
+          "command": "<ALT>space",
+          "name": "Open quick definition lookup",
+          "notes": "",
+          "orig": "ALT+space"
+        },
+        {
+          "command": "<control><shift>B",
+          "name": "Go to type declaration",
+          "notes": "",
+          "orig": "control+shift+B"
+        },
+        {
+          "command": "<control>U",
+          "name": "Go to super-method or super-class",
+          "notes": "",
+          "orig": "control+U"
+        },
+        {
+          "command": "<control>uparrow",
+          "name": "Go to previous method",
+          "notes": "",
+          "orig": "control+uparrow"
+        },
+        {
+          "command": "<control>downarrow",
+          "name": "Go to next method",
+          "notes": "",
+          "orig": "control+downarrow"
+        },
+        {
+          "command": "<control>leftanglebracket",
+          "name": "Move to code block start",
+          "notes": "",
+          "orig": "control+leftanglebracket"
+        },
+        {
+          "command": "<control>rightanglebracket",
+          "name": "Move to code block end",
+          "notes": "",
+          "orig": "control+rightanglebracket"
+        },
+        {
+          "command": "<control>F12",
+          "name": "File structure popup",
+          "notes": "",
+          "orig": "control+F12"
+        },
+        {
+          "command": "ControlH",
+          "name": "Type hierarchy",
+          "notes": "",
+          "orig": "Control+H"
+        },
+        {
+          "command": "<control><shift>H",
+          "name": "Method hierarchy",
+          "notes": "",
+          "orig": "control+shift+H"
+        },
+        {
+          "command": "<control><ALT>H",
+          "name": "Call hierarchy",
+          "notes": "",
+          "orig": "control+ALT+H"
+        },
+        {
+          "command": "F2",
+          "name": "Next highlighted error",
+          "notes": "",
+          "orig": "F2"
+        },
+        {
+          "command": "<shift>F2",
+          "name": "Previous highlighted error",
+          "notes": "",
+          "orig": "shift+F2"
+        },
+        {
+          "command": "F4",
+          "name": "Edit source",
+          "notes": "",
+          "orig": "F4"
+        },
+        {
+          "command": "<control>downarrow",
+          "name": "View source",
+          "notes": "",
+          "orig": "control+downarrow"
+        },
+        {
+          "command": "F3",
+          "name": "Toggle bookmark",
+          "notes": "",
+          "orig": "F3"
+        },
+        {
+          "command": "<ALT>F3",
+          "name": "Toogle bookmark with mnemonic",
+          "notes": "",
+          "orig": "ALT+F3"
+        },
+        {
+          "command": "<control>0decimalpoint..CTRL9",
+          "name": "Go to numbered bookmark",
+          "notes": "",
+          "orig": "control+0decimalpoint..CTRL+9"
+        },
+        {
+          "command": "<control>F3",
+          "name": "Show bookmarks",
+          "notes": "",
+          "orig": "control+F3"
+        }
+      ]
+    },
+    {
+      "name": "Refactoring",
+      "commands": [
+        {
+          "command": "<control>T",
+          "name": "Refactor this",
+          "notes": "",
+          "orig": "control+T"
+        },
+        {
+          "command": "F5",
+          "name": "Copy",
+          "notes": "",
+          "orig": "F5"
+        },
+        {
+          "command": "F6",
+          "name": "Move",
+          "notes": "",
+          "orig": "F6"
+        },
+        {
+          "command": "<control>Delete",
+          "name": "Safe delete",
+          "notes": "",
+          "orig": "control+Delete"
+        },
+        {
+          "command": "<shift>F6",
+          "name": "Rename",
+          "notes": "",
+          "orig": "shift+F6"
+        },
+        {
+          "command": "<control>F6",
+          "name": "Change signature",
+          "notes": "",
+          "orig": "control+F6"
+        },
+        {
+          "command": "<control><ALT>N",
+          "name": "Inline",
+          "notes": "",
+          "orig": "control+ALT+N"
+        },
+        {
+          "command": "<control><ALT>M",
+          "name": "Extract method",
+          "notes": "",
+          "orig": "control+ALT+M"
+        },
+        {
+          "command": "<control><ALT>V",
+          "name": "Introduce variable",
+          "notes": "",
+          "orig": "control+ALT+V"
+        },
+        {
+          "command": "<control><ALT>P",
+          "name": "Introduce parameter",
+          "notes": "",
+          "orig": "control+ALT+P"
+        },
+        {
+          "command": "<control><ALT>E",
+          "name": "Introduce property",
+          "notes": "",
+          "orig": "control+ALT+E"
+        },
+        {
+          "command": "<control><ALT>C",
+          "name": "Introduce constant",
+          "notes": "",
+          "orig": "control+ALT+C"
+        },
+        {
+          "command": "<control><ALT>I",
+          "name": "Introduce instance variable",
+          "notes": "",
+          "orig": "control+ALT+I"
+        }
+      ]
+    },
+    {
+      "name": "VCS / Local History",
+      "commands": [
+        {
+          "command": "<control>K",
+          "name": "Commit project to VCS",
+          "notes": "",
+          "orig": "control+K"
+        },
+        {
+          "command": "<control>T",
+          "name": "Update project from VCS",
+          "notes": "",
+          "orig": "control+T"
+        },
+        {
+          "command": "<ALT><shift>C",
+          "name": "View recent changes",
+          "notes": "",
+          "orig": "ALT+shift+C"
+        },
+        {
+          "command": "<control>V",
+          "name": "VCS quick popup",
+          "notes": "",
+          "orig": "control+V"
+        }
+      ]
+    },
+    {
+      "name": "Live Templates",
+      "commands": [
+        {
+          "command": "<control><ALT>J",
+          "name": "Surround with live template",
+          "notes": "",
+          "orig": "control+ALT+J"
+        },
+        {
+          "command": "<control>J",
+          "name": "Insert live template",
+          "notes": "",
+          "orig": "control+J"
+        }
+      ]
+    }
+  ],
+  "title": "AppCode"
+}

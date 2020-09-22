@@ -1,0 +1,561 @@
+{
+  "categories": [
+    {
+      "name": "Basic Editing",
+      "commands": [
+        {
+          "command": "<control>X",
+          "name": "Cut line (empty selection)",
+          "notes": "`editor.action.clipboardCutAction`",
+          "orig": "control+X"
+        },
+        {
+          "command": "<control>C",
+          "name": "Copy line (empty selection)",
+          "notes": "`editor.action.clipboardCopyAction`",
+          "orig": "control+C"
+        },
+        {
+          "command": "<shift>Delete",
+          "name": "Cut line",
+          "notes": "`editor.action.cutLines`",
+          "orig": "shift+Delete"
+        },
+        {
+          "command": "<control><shift>K",
+          "name": "Delete line",
+          "notes": "`editor.action.deleteLines`",
+          "orig": "control+shift+K"
+        },
+        {
+          "command": "<control>Return",
+          "name": "Insert line below",
+          "notes": "`editor.action.insertLineAfter`",
+          "orig": "control+Return"
+        },
+        {
+          "command": "<control><shift>Return",
+          "name": "Insert line above",
+          "notes": "`editor.action.insertLineBefore`",
+          "orig": "control+shift+Return"
+        },
+        {
+          "command": "<ALT>downarrow",
+          "name": "Move line down",
+          "notes": "`editor.action.moveLinesDownAction`",
+          "orig": "ALT+downarrow"
+        },
+        {
+          "command": "<ALT>uparrow",
+          "name": "Move line up",
+          "notes": "`editor.action.moveLinesUpAction`",
+          "orig": "ALT+uparrow"
+        },
+        {
+          "command": "<ALT><shift>downarrow",
+          "name": "Copy line down",
+          "notes": "`editor.action.copyLinesDownAction`",
+          "orig": "ALT+shift+downarrow"
+        },
+        {
+          "command": "<ALT><shift>uparrow",
+          "name": "Copy line up",
+          "notes": "`editor.action.copyLinesUpAction`",
+          "orig": "ALT+shift+uparrow"
+        },
+        {
+          "command": "<control><shift>L",
+          "name": "Select all occurrences of current selection",
+          "notes": "`editor.action.selectHighlights`",
+          "orig": "control+shift+L"
+        },
+        {
+          "command": "<control>F2",
+          "name": "Select all occurrences of current word",
+          "notes": "`editor.action.changeAll`",
+          "orig": "control+F2"
+        },
+        {
+          "command": "<control><ALT>downarrow",
+          "name": "Insert cursor below",
+          "notes": "`editor.action.insertCursorBelow`",
+          "orig": "control+ALT+downarrow"
+        },
+        {
+          "command": "<control><ALT>uparrow",
+          "name": "Insert cursor above",
+          "notes": "`editor.action.insertCursorAbove`",
+          "orig": "control+ALT+uparrow"
+        },
+        {
+          "command": "<control><ALT>rightanglebracket",
+          "name": "Jump to matching bracket",
+          "notes": "`editor.action.jumpToBracket`",
+          "orig": "control+ALT+rightanglebracket"
+        },
+        {
+          "command": "<control>rightanglebracket",
+          "name": "Indent line",
+          "notes": "`editor.action.indentLines`",
+          "orig": "control+rightanglebracket"
+        },
+        {
+          "command": "<control>leftanglebracket",
+          "name": "Outdent line",
+          "notes": "`editor.action.outdentLines`",
+          "orig": "control+leftanglebracket"
+        },
+        {
+          "command": "<control>leftarrow",
+          "name": "Go to beginning of line",
+          "notes": "`cursorHome`",
+          "orig": "control+leftarrow"
+        },
+        {
+          "command": "<control>rightarrow",
+          "name": "Go to end of line",
+          "notes": "`cursorEnd`",
+          "orig": "control+rightarrow"
+        },
+        {
+          "command": "<control>downarrow",
+          "name": "Go to end of file",
+          "notes": "`cursorBottom`",
+          "orig": "control+downarrow"
+        },
+        {
+          "command": "<control>uparrow",
+          "name": "Go to beginning of file",
+          "notes": "`cursorTop`",
+          "orig": "control+uparrow"
+        },
+        {
+          "command": "<control>slash",
+          "name": "Toggle line comment",
+          "notes": "`editor.action.commentLine`",
+          "orig": "control+slash"
+        },
+        {
+          "command": "<ALT><shift>A",
+          "name": "Toggle block comment",
+          "notes": "`editor.action.blockComment`",
+          "orig": "ALT+shift+A"
+        },
+        {
+          "command": "<control>F",
+          "name": "Find",
+          "notes": "`actions.find`",
+          "orig": "control+F"
+        },
+        {
+          "command": "<control><ALT>F",
+          "name": "Replace",
+          "notes": "`editor.action.startFindReplaceAction`",
+          "orig": "control+ALT+F"
+        },
+        {
+          "command": "<control>G",
+          "name": "Find next",
+          "notes": "`editor.action.nextMatchFindAction`",
+          "orig": "control+G"
+        },
+        {
+          "command": "<control><shift>G",
+          "name": "Find previous",
+          "notes": "`editor.action.previousMatchFindAction`",
+          "orig": "control+shift+G"
+        },
+        {
+          "command": "<control>M",
+          "name": "Toggle use of tab key for setting focus",
+          "notes": "`editor.action.toggleTabFocusMode`",
+          "orig": "control+M"
+        }
+      ]
+    },
+    {
+      "name": "Rich Languages Editing",
+      "commands": [
+        {
+          "command": "<control>space",
+          "name": "Trigger suggest",
+          "notes": "`editor.action.triggerSuggest`",
+          "orig": "control+space"
+        },
+        {
+          "command": "<ALT><shift>F",
+          "name": "Format code",
+          "notes": "`editor.action.format`",
+          "orig": "ALT+shift+F"
+        },
+        {
+          "command": "F12",
+          "name": "Go to definition",
+          "notes": "`editor.action.goToDeclaration`",
+          "orig": "F12"
+        },
+        {
+          "command": "<ALT>F12",
+          "name": "Peek definition",
+          "notes": "`editor.action.previewDeclaration`",
+          "orig": "ALT+F12"
+        },
+        {
+          "command": "<control>decimalpoint",
+          "name": "Quick fix",
+          "notes": "`editor.action.quickFix`",
+          "orig": "control+decimalpoint"
+        },
+        {
+          "command": "<shift>F12",
+          "name": "Show references",
+          "notes": "`editor.action.referenceSearch.trigger`",
+          "orig": "shift+F12"
+        },
+        {
+          "command": "F2",
+          "name": "Rename symbol",
+          "notes": "`editor.action.rename`",
+          "orig": "F2"
+        },
+        {
+          "command": "<control>downarrow",
+          "name": "Replace with next value",
+          "notes": "`editor.action.inPlaceReplace.down`",
+          "orig": "control+downarrow"
+        },
+        {
+          "command": "<control>uparrow",
+          "name": "Replace with previous value",
+          "notes": "`editor.action.inPlaceReplace.up`",
+          "orig": "control+uparrow"
+        },
+        {
+          "command": "<control><shift>rightarrow",
+          "name": "Expand ast select",
+          "notes": "`editor.action.smartSelect.grow`",
+          "orig": "control+shift+rightarrow"
+        },
+        {
+          "command": "<control><shift>leftarrow",
+          "name": "Shrink ast select",
+          "notes": "`editor.action.smartSelect.shrink`",
+          "orig": "control+shift+leftarrow"
+        }
+      ]
+    },
+    {
+      "name": "Navigation",
+      "commands": [
+        {
+          "command": "<control>T",
+          "name": "Show all symbols",
+          "notes": "`workbench.action.showAllSymbols`",
+          "orig": "control+T"
+        },
+        {
+          "command": "<control>G",
+          "name": "Go to line...",
+          "notes": "`workbench.action.gotoLine`",
+          "orig": "control+G"
+        },
+        {
+          "command": "<control>P",
+          "name": "Go to file...",
+          "notes": "`workbench.action.quickOpen`",
+          "orig": "control+P"
+        },
+        {
+          "command": "<control><shift>O",
+          "name": "Go to symbol...",
+          "notes": "`workbench.action.gotoSymbol`",
+          "orig": "control+shift+O"
+        },
+        {
+          "command": "<control><shift>M",
+          "name": "Show errors and warnings",
+          "notes": "`workbench.action.showErrorsWarnings`",
+          "orig": "control+shift+M"
+        },
+        {
+          "command": "F8",
+          "name": "Go to next error or warning",
+          "notes": "`editor.action.marker.next`",
+          "orig": "F8"
+        },
+        {
+          "command": "<shift>F8",
+          "name": "Go to previous error or warning",
+          "notes": "`editor.action.marker.prev`",
+          "orig": "shift+F8"
+        },
+        {
+          "command": "<control><shift>P",
+          "name": "Show all commands",
+          "notes": "`workbench.action.showCommands`",
+          "orig": "control+shift+P"
+        },
+        {
+          "command": "<control>Tab",
+          "name": "Navigate history",
+          "notes": "`workbench.action.openPreviousEditor`",
+          "orig": "control+Tab"
+        },
+        {
+          "command": "<control>minus",
+          "name": "Go back",
+          "notes": "`workbench.action.navigateBack`",
+          "orig": "control+minus"
+        },
+        {
+          "command": "<control><shift>minus",
+          "name": "Go forward",
+          "notes": "`workbench.action.navigateForward`",
+          "orig": "control+shift+minus"
+        }
+      ]
+    },
+    {
+      "name": "Editor/Window Management",
+      "commands": [
+        {
+          "command": "<control><shift>N",
+          "name": "New window",
+          "notes": "`workbench.action.newWindow`",
+          "orig": "control+shift+N"
+        },
+        {
+          "command": "<control><shift>W",
+          "name": "Close window",
+          "notes": "`workbench.action.closeWindow`",
+          "orig": "control+shift+W"
+        },
+        {
+          "command": "<control>W",
+          "name": "Close editor",
+          "notes": "`workbench.action.closeActiveEditor`",
+          "orig": "control+W"
+        },
+        {
+          "command": "<control>backslash",
+          "name": "Split editor",
+          "notes": "`workbench.action.splitEditor`",
+          "orig": "control+backslash"
+        },
+        {
+          "command": "<control>1",
+          "name": "Focus into left hand editor",
+          "notes": "`workbench.action.focusFirstEditor`",
+          "orig": "control+1"
+        },
+        {
+          "command": "<control>2",
+          "name": "Focus into side editor",
+          "notes": "`workbench.action.focusSecondEditor`",
+          "orig": "control+2"
+        },
+        {
+          "command": "<control>3",
+          "name": "Focus into right hand editor",
+          "notes": "`workbench.action.focusThirdEditor`",
+          "orig": "control+3"
+        },
+        {
+          "command": "<control><ALT>leftarrow",
+          "name": "Focus into next editor on the left",
+          "notes": "`workbench.action.focusLeftEditor`",
+          "orig": "control+ALT+leftarrow"
+        },
+        {
+          "command": "<control><ALT>rightarrow",
+          "name": "Focus into next editor on the right",
+          "notes": "`workbench.action.focusRightEditor`",
+          "orig": "control+ALT+rightarrow"
+        }
+      ]
+    },
+    {
+      "name": "File Management",
+      "commands": [
+        {
+          "command": "<control>N",
+          "name": "New file",
+          "notes": "`workbench.action.files.newUntitledFile`",
+          "orig": "control+N"
+        },
+        {
+          "command": "<control>S",
+          "name": "Save",
+          "notes": "`workbench.action.files.save`",
+          "orig": "control+S"
+        },
+        {
+          "command": "<control><shift>S",
+          "name": "Save all",
+          "notes": "`workbench.action.files.saveAll`",
+          "orig": "control+shift+S"
+        },
+        {
+          "command": "<control><ALT>S",
+          "name": "Save as...",
+          "notes": "`workbench.action.files.saveAs`",
+          "orig": "control+ALT+S"
+        }
+      ]
+    },
+    {
+      "name": "Display",
+      "commands": [
+        {
+          "command": "<control><control>F",
+          "name": "Toggle full screen",
+          "notes": "`workbench.action.toggleFullScreen`",
+          "orig": "control+control+F"
+        },
+        {
+          "command": "<control>equal",
+          "name": "Zoom in",
+          "notes": "`workbench.action.zoomIn`",
+          "orig": "control+equal"
+        },
+        {
+          "command": "<control>minus",
+          "name": "Zoom out",
+          "notes": "`workbench.action.zoomOut`",
+          "orig": "control+minus"
+        },
+        {
+          "command": "<control>B",
+          "name": "Toggle sidebar visibility",
+          "notes": "`workbench.action.toggleSidebarVisibility`",
+          "orig": "control+B"
+        },
+        {
+          "command": "<control><shift>D",
+          "name": "Show debug",
+          "notes": "`workbench.view.debug`",
+          "orig": "control+shift+D"
+        },
+        {
+          "command": "<control><shift>E",
+          "name": "Show explorer",
+          "notes": "`workbench.view.explorer`",
+          "orig": "control+shift+E"
+        },
+        {
+          "command": "<control><shift>F",
+          "name": "Show search",
+          "notes": "`workbench.view.search`",
+          "orig": "control+shift+F"
+        },
+        {
+          "command": "<control><shift>J",
+          "name": "Toggle search details",
+          "notes": "`workbench.action.search.toggleQueryDetails`",
+          "orig": "control+shift+J"
+        },
+        {
+          "command": "<control><shift>C",
+          "name": "Open new console",
+          "notes": "`workbench.action.terminal.openNativeConsole`",
+          "orig": "control+shift+C"
+        },
+        {
+          "command": "<control><shift>U",
+          "name": "Show output",
+          "notes": "`workbench.action.output.showOutput`",
+          "orig": "control+shift+U"
+        },
+        {
+          "command": "<control>U+L",
+          "name": "Show omnisharp log",
+          "notes": "`omnisharp.show.generalLog`",
+          "orig": "control+U L"
+        },
+        {
+          "command": "<control>U+CMDL",
+          "name": "Show omnisharp log to the side",
+          "notes": "`omnisharp.show.generalLogOnSide`",
+          "orig": "control+U CMD+L"
+        },
+        {
+          "command": "<control><shift>V",
+          "name": "Toggle markdown preview",
+          "notes": "`workbench.action.markdown.togglePreview`",
+          "orig": "control+shift+V"
+        }
+      ]
+    },
+    {
+      "name": "Debug",
+      "commands": [
+        {
+          "command": "F9",
+          "name": "Toggle breakpoint",
+          "notes": "`editor.debug.action.toggleBreakpoint`",
+          "orig": "F9"
+        },
+        {
+          "command": "F5",
+          "name": "Continue",
+          "notes": "`workbench.action.debug.play`",
+          "orig": "F5"
+        },
+        {
+          "command": "F5",
+          "name": "Pause",
+          "notes": "`workbench.action.debug.start`",
+          "orig": "F5"
+        },
+        {
+          "command": "F11",
+          "name": "Step into",
+          "notes": "`workbench.action.debug.stepInto`",
+          "orig": "F11"
+        },
+        {
+          "command": "<shift>F11",
+          "name": "Step out",
+          "notes": "`workbench.action.debug.stepOut`",
+          "orig": "shift+F11"
+        },
+        {
+          "command": "F10",
+          "name": "Step over",
+          "notes": "`workbench.action.debug.stepOver`",
+          "orig": "F10"
+        },
+        {
+          "command": "<shift>F5",
+          "name": "Stop",
+          "notes": "`workbench.action.debug.stop`",
+          "orig": "shift+F5"
+        }
+      ]
+    },
+    {
+      "name": "Tasks",
+      "commands": [
+        {
+          "command": "<control><shift>B",
+          "name": "Run build task",
+          "notes": "`workbench.action.tasks.build`",
+          "orig": "control+shift+B"
+        },
+        {
+          "command": "<control><shift>T",
+          "name": "Run test task",
+          "notes": "`workbench.action.tasks.test`",
+          "orig": "control+shift+T"
+        }
+      ]
+    }
+  ],
+  "title": "Visual Studio Code",
+  "classes": [
+    "code - insiders"
+  ],
+  "window_names": [
+    "code-insiders"
+  ]
+}

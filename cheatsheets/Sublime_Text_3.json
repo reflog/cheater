@@ -1,0 +1,741 @@
+{
+  "categories": [
+    {
+      "name": "General",
+      "commands": [
+        {
+          "command": "<control><shift>P",
+          "name": "Command palette",
+          "notes": "",
+          "orig": "Command palette"
+        },
+        {
+          "command": "<control>P",
+          "name": "Go to anything",
+          "notes": "",
+          "orig": "Go to anything"
+        },
+        {
+          "command": "<control>R",
+          "name": "Go to symbol",
+          "notes": "",
+          "orig": "Go to symbol"
+        },
+        {
+          "command": "<control>N",
+          "name": "New file",
+          "notes": "",
+          "orig": "New file"
+        },
+        {
+          "command": "<control>S",
+          "name": "Save file",
+          "notes": "",
+          "orig": "Save file"
+        },
+        {
+          "command": "<control><shift>S",
+          "name": "Save file as",
+          "notes": "",
+          "orig": "Save file as"
+        },
+        {
+          "command": "<control><ALT>S",
+          "name": "Save all",
+          "notes": "",
+          "orig": "Save all"
+        },
+        {
+          "command": "<control>O",
+          "name": "Open file",
+          "notes": "",
+          "orig": "Open file"
+        },
+        {
+          "command": "<control>W",
+          "name": "Close file",
+          "notes": "",
+          "orig": "Close file"
+        },
+        {
+          "command": "<control><shift>T",
+          "name": "Reopen closed file",
+          "notes": "",
+          "orig": "Reopen closed file"
+        },
+        {
+          "command": "<control><shift>N",
+          "name": "New window",
+          "notes": "",
+          "orig": "New window"
+        },
+        {
+          "command": "<control><shift>W",
+          "name": "Close window",
+          "notes": "",
+          "orig": "Close window"
+        },
+        {
+          "command": "<control>K,+CMDB",
+          "name": "Show sidebar",
+          "notes": "",
+          "orig": "Show sidebar"
+        },
+        {
+          "command": "<control>`",
+          "name": "Show console",
+          "notes": "",
+          "orig": "Show console"
+        },
+        {
+          "command": "<control>0",
+          "name": "Focus sidebar",
+          "notes": "",
+          "orig": "Focus sidebar"
+        },
+        {
+          "command": "<control>1minus9",
+          "name": "Focus group/pane 1-9",
+          "notes": "",
+          "orig": "Focus group/pane 1-9"
+        },
+        {
+          "command": "<control><control>F",
+          "name": "Enter full screen",
+          "notes": "",
+          "orig": "Enter full screen"
+        },
+        {
+          "command": "<control><control><shift>F",
+          "name": "Enter distra­ction free mode",
+          "notes": "",
+          "orig": "Enter distra­ction free mode"
+        }
+      ]
+    },
+    {
+      "name": "Moving / Editing",
+      "commands": [
+        {
+          "command": "<control>Z",
+          "name": "Undo",
+          "notes": "",
+          "orig": "Undo"
+        },
+        {
+          "command": "<control><shift>Z",
+          "name": "Redo",
+          "notes": "",
+          "orig": "Redo"
+        },
+        {
+          "command": "<control>Y",
+          "name": "Repeat",
+          "notes": "",
+          "orig": "Repeat"
+        },
+        {
+          "command": "<control>C",
+          "name": "Copy",
+          "notes": "",
+          "orig": "Copy"
+        },
+        {
+          "command": "<control>Y",
+          "name": "Yank",
+          "notes": "Inserts the text that’s on top of the kill ring",
+          "orig": "Yank"
+        },
+        {
+          "command": "<control>X",
+          "name": "Cut",
+          "notes": "",
+          "orig": "Cut"
+        },
+        {
+          "command": "<control>V",
+          "name": "Paste",
+          "notes": "",
+          "orig": "Paste"
+        },
+        {
+          "command": "<control><shift>V",
+          "name": "Paste and indent",
+          "notes": "",
+          "orig": "Paste and indent"
+        },
+        {
+          "command": "<control>rightanglebracket",
+          "name": "Indent",
+          "notes": "",
+          "orig": "Indent"
+        },
+        {
+          "command": "<control>leftanglebracket",
+          "name": "Unindent",
+          "notes": "",
+          "orig": "Unindent"
+        },
+        {
+          "command": "<control><control>uparrow",
+          "name": "Swap line up",
+          "notes": "",
+          "orig": "Swap line up"
+        },
+        {
+          "command": "<control><control>downarrow",
+          "name": "Swap line down",
+          "notes": "",
+          "orig": "Swap line down"
+        },
+        {
+          "command": "<control><shift>D",
+          "name": "Duplicate line",
+          "notes": "",
+          "orig": "Duplicate line"
+        },
+        {
+          "command": "<control><shift>K",
+          "name": "Delete line",
+          "notes": "",
+          "orig": "Delete line"
+        },
+        {
+          "command": "<control>J",
+          "name": "Join lines",
+          "notes": "",
+          "orig": "Join lines"
+        },
+        {
+          "command": "<control>slash",
+          "name": "Toggle comment",
+          "notes": "",
+          "orig": "Toggle comment"
+        },
+        {
+          "command": "<control><ALT>slash",
+          "name": "Toggle block comment",
+          "notes": "",
+          "orig": "Toggle block comment"
+        },
+        {
+          "command": "<control><shift>Return",
+          "name": "Insert line before",
+          "notes": "",
+          "orig": "Insert line before"
+        },
+        {
+          "command": "<control>Return",
+          "name": "Insert line after",
+          "notes": "",
+          "orig": "Insert line after"
+        },
+        {
+          "command": "<control>Backspace",
+          "name": "Delete to beginning of line",
+          "notes": "",
+          "orig": "Delete to beginning of line"
+        },
+        {
+          "command": "<control>K",
+          "name": "Delete to end of line",
+          "notes": "",
+          "orig": "Delete to end of line"
+        },
+        {
+          "command": "<control>A",
+          "name": "Move to beginning of line",
+          "notes": "",
+          "orig": "Move to beginning of line"
+        },
+        {
+          "command": "<control>E",
+          "name": "Move to end of line",
+          "notes": "",
+          "orig": "Move to end of line"
+        },
+        {
+          "command": "<control>P",
+          "name": "Move up",
+          "notes": "",
+          "orig": "Move up"
+        },
+        {
+          "command": "<control>N",
+          "name": "Move down",
+          "notes": "",
+          "orig": "Move down"
+        },
+        {
+          "command": "<control>B",
+          "name": "Move left",
+          "notes": "",
+          "orig": "Move left"
+        },
+        {
+          "command": "<control>F",
+          "name": "Move right",
+          "notes": "",
+          "orig": "Move right"
+        },
+        {
+          "command": "<control>T",
+          "name": "Transpose",
+          "notes": "Swap two characters or words",
+          "orig": "Transpose"
+        },
+        {
+          "command": "<control><ALT>decimalpoint",
+          "name": "Close tag",
+          "notes": "",
+          "orig": "Close tag"
+        },
+        {
+          "command": "<control><shift>W",
+          "name": "Wrap selection with tag",
+          "notes": "",
+          "orig": "Wrap selection with tag"
+        },
+        {
+          "command": "<control>K,+CMDU",
+          "name": "Convert selected text to uppercase",
+          "notes": "",
+          "orig": "Convert selected text to uppercase"
+        },
+        {
+          "command": "<control>K,+CMDL",
+          "name": "Convert selected text to lowercase",
+          "notes": "",
+          "orig": "Convert selected text to lowercase"
+        },
+        {
+          "command": "<control><ALT>Q",
+          "name": "Wrap paragraph at ruler",
+          "notes": "",
+          "orig": "Wrap paragraph at ruler"
+        },
+        {
+          "command": "F5",
+          "name": "Sort lines",
+          "notes": "",
+          "orig": "Sort lines"
+        },
+        {
+          "command": "<control>F5",
+          "name": "Sort lines (case sensitive)",
+          "notes": "",
+          "orig": "Sort lines (case sensitive)"
+        },
+        {
+          "command": "<control>G",
+          "name": "Go to line",
+          "notes": "",
+          "orig": "Go to line"
+        },
+        {
+          "command": "<control>M",
+          "name": "Jump to matching brackets",
+          "notes": "",
+          "orig": "Jump to matching brackets"
+        },
+        {
+          "command": "<control>L",
+          "name": "Scroll to selection",
+          "notes": "",
+          "orig": "Scroll to selection"
+        },
+        {
+          "command": "<control><ALT>uparrow",
+          "name": "Scroll line up",
+          "notes": "",
+          "orig": "Scroll line up"
+        },
+        {
+          "command": "<control><ALT>downarrow",
+          "name": "Scroll line down",
+          "notes": "",
+          "orig": "Scroll line down"
+        },
+        {
+          "command": "<control>Q",
+          "name": "Record macro",
+          "notes": "",
+          "orig": "Record macro"
+        },
+        {
+          "command": "<control><shift>Q",
+          "name": "Playback macro",
+          "notes": "",
+          "orig": "Playback macro"
+        }
+      ]
+    },
+    {
+      "name": "Selection",
+      "commands": [
+        {
+          "command": "<control>U",
+          "name": "Undo selection",
+          "notes": "",
+          "orig": "Undo selection"
+        },
+        {
+          "command": "<control><shift>U",
+          "name": "Redo selection",
+          "notes": "",
+          "orig": "Redo selection"
+        },
+        {
+          "command": "<control><shift>L",
+          "name": "Split selection into lines",
+          "notes": "",
+          "orig": "Split selection into lines"
+        },
+        {
+          "command": "<control><shift>downarrow",
+          "name": "Add next line",
+          "notes": "",
+          "orig": "Add next line"
+        },
+        {
+          "command": "<control><shift>uparrow",
+          "name": "Add previo­us line",
+          "notes": "",
+          "orig": "Add previo­us line"
+        },
+        {
+          "command": "Esc",
+          "name": "Single selection",
+          "notes": "Cancel multiple selections",
+          "orig": "Single selection"
+        },
+        {
+          "command": "<control>A",
+          "name": "Select all",
+          "notes": "",
+          "orig": "Select all"
+        },
+        {
+          "command": "<control>D",
+          "name": "Expand selection to word",
+          "notes": "",
+          "orig": "Expand selection to word"
+        },
+        {
+          "command": "<control>L",
+          "name": "Expand selection to line",
+          "notes": "",
+          "orig": "Expand selection to line"
+        },
+        {
+          "command": "<control><shift>A",
+          "name": "Expand selection to tag (HTML/XML)",
+          "notes": "",
+          "orig": "Expand selection to tag (HTML/XML)"
+        },
+        {
+          "command": "<control><shift>space",
+          "name": "Expand selection to scope",
+          "notes": "",
+          "orig": "Expand selection to scope"
+        },
+        {
+          "command": "<control><shift>M",
+          "name": "Expand selection to brackets",
+          "notes": "",
+          "orig": "Expand selection to brackets"
+        },
+        {
+          "command": "<control><shift>J",
+          "name": "Expand selection to indent­ation",
+          "notes": "",
+          "orig": "Expand selection to indent­ation"
+        }
+      ]
+    },
+    {
+      "name": "Search / Replace",
+      "commands": [
+        {
+          "command": "<control>F",
+          "name": "Find",
+          "notes": "",
+          "orig": "Find"
+        },
+        {
+          "command": "<control>G",
+          "name": "Find next",
+          "notes": "",
+          "orig": "Find next"
+        },
+        {
+          "command": "<control><shift>G",
+          "name": "Find previous",
+          "notes": "",
+          "orig": "Find previous"
+        },
+        {
+          "command": "<control>I",
+          "name": "Increm­ental find",
+          "notes": "",
+          "orig": "Increm­ental find"
+        },
+        {
+          "command": "<control><ALT>F",
+          "name": "Replace",
+          "notes": "",
+          "orig": "Replace"
+        },
+        {
+          "command": "<control><ALT>E",
+          "name": "Replace next",
+          "notes": "",
+          "orig": "Replace next"
+        },
+        {
+          "command": "<control><ALT>G",
+          "name": "Quick find",
+          "notes": "Searches for the word under the cursor",
+          "orig": "Quick find"
+        },
+        {
+          "command": "<control><control>G",
+          "name": "Quick find all",
+          "notes": "Selects all occurences of the word under the cursor",
+          "orig": "Quick find all"
+        },
+        {
+          "command": "<control>E",
+          "name": "Use selection for find",
+          "notes": "",
+          "orig": "Use selection for find"
+        },
+        {
+          "command": "<control><shift>E",
+          "name": "Use selection for replace",
+          "notes": "",
+          "orig": "Use selection for replace"
+        },
+        {
+          "command": "<control><shift>F",
+          "name": "Find in all open files",
+          "notes": "",
+          "orig": "Find in all open files"
+        },
+        {
+          "command": "F4",
+          "name": "Next result in file search results",
+          "notes": "",
+          "orig": "Next result in file search results"
+        },
+        {
+          "command": "<shift>F4",
+          "name": "Previous result in file search results",
+          "notes": "",
+          "orig": "Previous result in file search results"
+        }
+      ]
+    },
+    {
+      "name": "Folding",
+      "commands": [
+        {
+          "command": "<control><ALT>leftanglebracket",
+          "name": "Fold selec­tion",
+          "notes": "",
+          "orig": "Fold selec­tion"
+        },
+        {
+          "command": "<control><ALT>rightanglebracket",
+          "name": "Unfold",
+          "notes": "",
+          "orig": "Unfold"
+        },
+        {
+          "command": "<control>K,+CMDJ",
+          "name": "Unfold all",
+          "notes": "",
+          "orig": "Unfold all"
+        },
+        {
+          "command": "<control>K,+CMD1",
+          "name": "Fold all",
+          "notes": "",
+          "orig": "Fold all"
+        },
+        {
+          "command": "<control>K,+CMD2minus9",
+          "name": "Fold level 2-9",
+          "notes": "",
+          "orig": "Fold level 2-9"
+        },
+        {
+          "command": "<control>K,+CMDT",
+          "name": "Fold tag attributes (HTML/XML)",
+          "notes": "",
+          "orig": "Fold tag attributes (HTML/XML)"
+        }
+      ]
+    },
+    {
+      "name": "Bookmarking",
+      "commands": [
+        {
+          "command": "<control>K,+CMDspace",
+          "name": "Set mark",
+          "notes": "",
+          "orig": "Set mark"
+        },
+        {
+          "command": "<control>K,+CMDA",
+          "name": "Select to mark",
+          "notes": "",
+          "orig": "Select to mark"
+        },
+        {
+          "command": "<control>K,+CMDW",
+          "name": "Delete to mark",
+          "notes": "",
+          "orig": "Delete to mark"
+        },
+        {
+          "command": "<control>K,+CMDX",
+          "name": "Swap with mark",
+          "notes": "",
+          "orig": "Swap with mark"
+        },
+        {
+          "command": "<control>K,+CMDG",
+          "name": "Clear to mark",
+          "notes": "",
+          "orig": "Clear to mark"
+        },
+        {
+          "command": "<control>F2",
+          "name": "Toggle bookmark",
+          "notes": "",
+          "orig": "Toggle bookmark"
+        },
+        {
+          "command": "F2",
+          "name": "Next bookmark",
+          "notes": "",
+          "orig": "Next bookmark"
+        },
+        {
+          "command": "<shift>F2",
+          "name": "Previous bookmark",
+          "notes": "",
+          "orig": "Previous bookmark"
+        },
+        {
+          "command": "<control><shift>F2",
+          "name": "Clear bookmarks",
+          "notes": "",
+          "orig": "Clear bookmarks"
+        }
+      ]
+    },
+    {
+      "name": "Layout",
+      "commands": [
+        {
+          "command": "<control><ALT>1",
+          "name": "Single",
+          "notes": "",
+          "orig": "Single"
+        },
+        {
+          "command": "<control><ALT>2",
+          "name": "Columns: 2",
+          "notes": "",
+          "orig": "Columns: 2"
+        },
+        {
+          "command": "<control><ALT>3",
+          "name": "Columns: 3",
+          "notes": "",
+          "orig": "Columns: 3"
+        },
+        {
+          "command": "<control><ALT>4",
+          "name": "Columns: 4",
+          "notes": "",
+          "orig": "Columns: 4"
+        },
+        {
+          "command": "<control><shift><ALT>2",
+          "name": "Rows: 2",
+          "notes": "",
+          "orig": "Rows: 2"
+        },
+        {
+          "command": "<control><shift><ALT>3",
+          "name": "Rows: 3",
+          "notes": "",
+          "orig": "Rows: 3"
+        },
+        {
+          "command": "<control><ALT>5",
+          "name": "Grid: 3",
+          "notes": "",
+          "orig": "Grid: 3"
+        },
+        {
+          "command": "<control>leftanglebracketNUMrightanglebracket",
+          "name": "Jump to specified group",
+          "notes": "",
+          "orig": "Jump to specified group"
+        },
+        {
+          "command": "<control><shift>leftanglebracketNUMrightanglebracket",
+          "name": "Move file to specified group",
+          "notes": "",
+          "orig": "Move file to specified group"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "commands": [
+        {
+          "command": "F6",
+          "name": "Toggle spell check",
+          "notes": "",
+          "orig": "Toggle spell check"
+        },
+        {
+          "command": "<control>F6",
+          "name": "Next misspe­lling",
+          "notes": "",
+          "orig": "Next misspe­lling"
+        },
+        {
+          "command": "<control><shift>F6",
+          "name": "Previous misspe­lling",
+          "notes": "",
+          "orig": "Previous misspe­lling"
+        },
+        {
+          "command": "<control>B",
+          "name": "Build",
+          "notes": "",
+          "orig": "Build"
+        },
+        {
+          "command": "<control>space",
+          "name": "Show comple­tions",
+          "notes": "",
+          "orig": "Show comple­tions"
+        },
+        {
+          "command": "<control><ALT>T",
+          "name": "Special characters",
+          "notes": "",
+          "orig": "Special characters"
+        }
+      ]
+    }
+  ],
+  "title": "Sublime Text 3"
+}

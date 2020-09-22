@@ -1,0 +1,496 @@
+{
+  "categories": [
+    {
+      "name": "Edit",
+      "commands": [
+        {
+          "command": "<control><shift>V",
+          "name": "Paste and indent",
+          "notes": "",
+          "orig": "control+shift+V"
+        },
+        {
+          "command": "<control>rightanglebracket",
+          "name": "Indent",
+          "notes": "",
+          "orig": "control+rightanglebracket"
+        },
+        {
+          "command": "<control>leftanglebracket",
+          "name": "Unindent",
+          "notes": "",
+          "orig": "control+leftanglebracket"
+        },
+        {
+          "command": "<control><control>uparrow",
+          "name": "Swap line up",
+          "notes": "",
+          "orig": "control+control+uparrow"
+        },
+        {
+          "command": "<control><control>downarrow",
+          "name": "Swap line down",
+          "notes": "",
+          "orig": "control+control+downarrow"
+        },
+        {
+          "command": "<control><shift>D",
+          "name": "Duplicate line",
+          "notes": "",
+          "orig": "control+shift+D"
+        },
+        {
+          "command": "<control>J",
+          "name": "Join lines",
+          "notes": "",
+          "orig": "control+J"
+        },
+        {
+          "command": "<control>leftarrow",
+          "name": "Beginning of line",
+          "notes": "",
+          "orig": "control+leftarrow"
+        },
+        {
+          "command": "<control>rightarrow",
+          "name": "End of line",
+          "notes": "",
+          "orig": "control+rightarrow"
+        },
+        {
+          "command": "<control>slash",
+          "name": "Toggle comment",
+          "notes": "",
+          "orig": "control+slash"
+        },
+        {
+          "command": "<control><control>slash",
+          "name": "Toggle comment block",
+          "notes": "",
+          "orig": "control+control+slash"
+        },
+        {
+          "command": "<control><shift>K",
+          "name": "Delete line",
+          "notes": "",
+          "orig": "control+shift+K"
+        },
+        {
+          "command": "<control>K",
+          "name": "Delete to end",
+          "notes": "",
+          "orig": "control+K"
+        },
+        {
+          "command": "<control>T",
+          "name": "Transpose",
+          "notes": "",
+          "orig": "control+T"
+        },
+        {
+          "command": "<control><ALT>decimalpoint",
+          "name": "Close tag",
+          "notes": "",
+          "orig": "control+ALT+decimalpoint"
+        },
+        {
+          "command": "<control><shift>A",
+          "name": "Expand selection to tag",
+          "notes": "",
+          "orig": "control+shift+A"
+        },
+        {
+          "command": "<control><shift>W",
+          "name": "Wrap selection with tag",
+          "notes": "",
+          "orig": "control+shift+W"
+        },
+        {
+          "command": "<control><ALT>Q",
+          "name": "Wrap paragraph at ruler",
+          "notes": "",
+          "orig": "control+ALT+Q"
+        },
+        {
+          "command": "F5",
+          "name": "Sort lines",
+          "notes": "",
+          "orig": "F5"
+        },
+        {
+          "command": "<control>F5",
+          "name": "Sort lines (case sensitive)",
+          "notes": "",
+          "orig": "control+F5"
+        },
+        {
+          "command": "<control><ALT>T",
+          "name": "Special characters",
+          "notes": "",
+          "orig": "control+ALT+T"
+        }
+      ]
+    },
+    {
+      "name": "Selection",
+      "commands": [
+        {
+          "command": "<control><shift>L",
+          "name": "Split into lines",
+          "notes": "",
+          "orig": "control+shift+L"
+        },
+        {
+          "command": "<control><shift>uparrow",
+          "name": "Add previous line",
+          "notes": "",
+          "orig": "control+shift+uparrow"
+        },
+        {
+          "command": "<control><shift>downarrow",
+          "name": "Add next line",
+          "notes": "",
+          "orig": "control+shift+downarrow"
+        },
+        {
+          "command": "Esc",
+          "name": "Single selection",
+          "notes": "Cancel multiple selections",
+          "orig": "Esc"
+        },
+        {
+          "command": "<control>L",
+          "name": "Expand selection to line",
+          "notes": "",
+          "orig": "control+L"
+        },
+        {
+          "command": "<control>D",
+          "name": "Expand selection to words",
+          "notes": "",
+          "orig": "control+D"
+        },
+        {
+          "command": "<control><shift>M",
+          "name": "Expand selection to brackets",
+          "notes": "",
+          "orig": "control+shift+M"
+        },
+        {
+          "command": "<control><shift>J",
+          "name": "Expand selection to indentation",
+          "notes": "",
+          "orig": "control+shift+J"
+        },
+        {
+          "command": "<control><shift>A",
+          "name": "Expand selection to tag",
+          "notes": "",
+          "orig": "control+shift+A"
+        }
+      ]
+    },
+    {
+      "name": "Find",
+      "commands": [
+        {
+          "command": "<control>F",
+          "name": "Find",
+          "notes": "",
+          "orig": "control+F"
+        },
+        {
+          "command": "<control>G",
+          "name": "Find next",
+          "notes": "",
+          "orig": "control+G"
+        },
+        {
+          "command": "<control><shift>G",
+          "name": "Find previous",
+          "notes": "",
+          "orig": "control+shift+G"
+        },
+        {
+          "command": "<control>I",
+          "name": "Incremental find",
+          "notes": "",
+          "orig": "control+I"
+        },
+        {
+          "command": "<control><ALT>F",
+          "name": "Replace",
+          "notes": "",
+          "orig": "control+ALT+F"
+        },
+        {
+          "command": "<control><ALT>E",
+          "name": "Replace next",
+          "notes": "",
+          "orig": "control+ALT+E"
+        },
+        {
+          "command": "<control><ALT>G",
+          "name": "Quick find",
+          "notes": "",
+          "orig": "control+ALT+G"
+        },
+        {
+          "command": "<control><control>G",
+          "name": "Quick find all",
+          "notes": "",
+          "orig": "control+control+G"
+        },
+        {
+          "command": "<control>D",
+          "name": "Quick add next",
+          "notes": "",
+          "orig": "control+D"
+        },
+        {
+          "command": "<control>E",
+          "name": "Use selection for find",
+          "notes": "",
+          "orig": "control+E"
+        },
+        {
+          "command": "<control><shift>E",
+          "name": "Use selection for replace",
+          "notes": "",
+          "orig": "control+shift+E"
+        },
+        {
+          "command": "<control><shift>F",
+          "name": "Find in files",
+          "notes": "",
+          "orig": "control+shift+F"
+        }
+      ]
+    },
+    {
+      "name": "View",
+      "commands": [
+        {
+          "command": "<control>`",
+          "name": "Show console",
+          "notes": "",
+          "orig": "control+`"
+        },
+        {
+          "command": "<control><control>F",
+          "name": "Enter full screen",
+          "notes": "",
+          "orig": "control+control+F"
+        },
+        {
+          "command": "<control><control><shift>F",
+          "name": "Enter distraction free mode",
+          "notes": "",
+          "orig": "control+control+shift+F"
+        },
+        {
+          "command": "<control><ALT>1minus4",
+          "name": "Single layout",
+          "notes": "",
+          "orig": "control+ALT+1minus4"
+        },
+        {
+          "command": "<control><ALT>2minus4",
+          "name": "2-4 column layout",
+          "notes": "",
+          "orig": "control+ALT+2minus4"
+        },
+        {
+          "command": "<control><ALT><shift>2minus3",
+          "name": "2-3 row layout",
+          "notes": "",
+          "orig": "control+ALT+shift+2minus3"
+        },
+        {
+          "command": "<control><ALT>5",
+          "name": "Grid layout",
+          "notes": "",
+          "orig": "control+ALT+5"
+        },
+        {
+          "command": "<control>1",
+          "name": "Group 1",
+          "notes": "",
+          "orig": "control+1"
+        },
+        {
+          "command": "<control><shift>1",
+          "name": "Group 2",
+          "notes": "",
+          "orig": "control+shift+1"
+        },
+        {
+          "command": "F6",
+          "name": "Spell check",
+          "notes": "",
+          "orig": "F6"
+        }
+      ]
+    },
+    {
+      "name": "Go to",
+      "commands": [
+        {
+          "command": "<control>P",
+          "name": "Go to anything",
+          "notes": "",
+          "orig": "control+P"
+        },
+        {
+          "command": "<control>R",
+          "name": "Go to symbol",
+          "notes": "",
+          "orig": "control+R"
+        },
+        {
+          "command": "<control>G",
+          "name": "Go to line",
+          "notes": "",
+          "orig": "control+G"
+        },
+        {
+          "command": "<control><ALT>rightarrow",
+          "name": "Next file",
+          "notes": "",
+          "orig": "control+ALT+rightarrow"
+        },
+        {
+          "command": "<control><ALT>leftarrow",
+          "name": "Previous file",
+          "notes": "",
+          "orig": "control+ALT+leftarrow"
+        },
+        {
+          "command": "<control><ALT>uparrow",
+          "name": "Switch header / implementation",
+          "notes": "",
+          "orig": "control+ALT+uparrow"
+        },
+        {
+          "command": "<control>1",
+          "name": "Go to first file",
+          "notes": "",
+          "orig": "control+1"
+        },
+        {
+          "command": "<control>L",
+          "name": "Scroll to selection",
+          "notes": "",
+          "orig": "control+L"
+        },
+        {
+          "command": "<control><ALT>uparrow",
+          "name": "Scroll line up",
+          "notes": "",
+          "orig": "control+ALT+uparrow"
+        },
+        {
+          "command": "<control><ALT>downarrow",
+          "name": "Scroll line down",
+          "notes": "",
+          "orig": "control+ALT+downarrow"
+        },
+        {
+          "command": "<control>F2",
+          "name": "Toggle bookmark",
+          "notes": "",
+          "orig": "control+F2"
+        },
+        {
+          "command": "F2",
+          "name": "Next bookmark",
+          "notes": "",
+          "orig": "F2"
+        },
+        {
+          "command": "<shift>F2",
+          "name": "Previous bookmark",
+          "notes": "",
+          "orig": "shift+F2"
+        },
+        {
+          "command": "<control><shift>F2",
+          "name": "Clear bookmarks",
+          "notes": "",
+          "orig": "control+shift+F2"
+        },
+        {
+          "command": "<control>M",
+          "name": "Jump to matching bracket",
+          "notes": "",
+          "orig": "control+M"
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "commands": [
+        {
+          "command": "<control><shift>P",
+          "name": "Command palette",
+          "notes": "",
+          "orig": "control+shift+P"
+        },
+        {
+          "command": "<control><ALT>V",
+          "name": "View in browser",
+          "notes": "",
+          "orig": "control+ALT+V"
+        },
+        {
+          "command": "<control>B",
+          "name": "Build",
+          "notes": "",
+          "orig": "control+B"
+        },
+        {
+          "command": "<control>Q",
+          "name": "Record macro",
+          "notes": "",
+          "orig": "control+Q"
+        },
+        {
+          "command": "<control>R",
+          "name": "Run",
+          "notes": "",
+          "orig": "control+R"
+        },
+        {
+          "command": "<control><ALT>R",
+          "name": "Run with arguments",
+          "notes": "",
+          "orig": "control+ALT+R"
+        },
+        {
+          "command": "<control>D",
+          "name": "Debug",
+          "notes": "",
+          "orig": "control+D"
+        },
+        {
+          "command": "<control><ALT>D",
+          "name": "Debug with arguments",
+          "notes": "",
+          "orig": "control+ALT+D"
+        }
+      ]
+    },
+    {
+      "name": "Project",
+      "commands": [
+        {
+          "command": "<control><control>P",
+          "name": "Switch project window",
+          "notes": "",
+          "orig": "control+control+P"
+        }
+      ]
+    }
+  ],
+  "title": "Sublime Text 2"
+}

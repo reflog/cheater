@@ -1,0 +1,566 @@
+{
+  "categories": [
+    {
+      "name": "View / Window Manipulation",
+      "commands": [
+        {
+          "command": "<control><shift>H",
+          "name": "Toggle sidebar",
+          "notes": "",
+          "orig": "control+shift+H"
+        },
+        {
+          "command": "<control>M",
+          "name": "Minimize",
+          "notes": "",
+          "orig": "control+M"
+        }
+      ]
+    },
+    {
+      "name": "File and Folders",
+      "commands": [
+        {
+          "command": "<control>N",
+          "name": "New file",
+          "notes": "",
+          "orig": "control+N"
+        },
+        {
+          "command": "<control>O",
+          "name": "Open file",
+          "notes": "",
+          "orig": "control+O"
+        },
+        {
+          "command": "<control><ALT>O",
+          "name": "Open folder",
+          "notes": "",
+          "orig": "control+ALT+O"
+        },
+        {
+          "command": "<control>W",
+          "name": "Close file",
+          "notes": "",
+          "orig": "control+W"
+        },
+        {
+          "command": "<control><shift>W",
+          "name": "Close all files",
+          "notes": "",
+          "orig": "control+shift+W"
+        }
+      ]
+    },
+    {
+      "name": "File Navigation",
+      "commands": [
+        {
+          "command": "<control><shift>O",
+          "name": "Quick open",
+          "notes": "",
+          "orig": "control+shift+O"
+        },
+        {
+          "command": "<control>L",
+          "name": "Go to line",
+          "notes": "",
+          "orig": "control+L"
+        },
+        {
+          "command": "<control>T",
+          "name": "Quick find definition",
+          "notes": "",
+          "orig": "control+T"
+        },
+        {
+          "command": "<control>J",
+          "name": "Jump to definition",
+          "notes": "",
+          "orig": "control+J"
+        },
+        {
+          "command": "<control>`",
+          "name": "Goto first problem",
+          "notes": "",
+          "orig": "control+`"
+        },
+        {
+          "command": "<control><shift>rightanglebracket",
+          "name": "Next document",
+          "notes": "",
+          "orig": "control+shift+rightanglebracket"
+        },
+        {
+          "command": "<control><shift>leftanglebracket",
+          "name": "Previous document",
+          "notes": "",
+          "orig": "control+shift+leftanglebracket"
+        },
+        {
+          "command": "<control>E",
+          "name": "Toggle quick edit",
+          "notes": "",
+          "orig": "control+E"
+        },
+        {
+          "command": "<ALT>uparrow",
+          "name": "Previous match",
+          "notes": "",
+          "orig": "ALT+uparrow"
+        },
+        {
+          "command": "<ALT>downarrow",
+          "name": "Next match",
+          "notes": "",
+          "orig": "ALT+downarrow"
+        },
+        {
+          "command": "<control><ALT>N",
+          "name": "New rule",
+          "notes": "",
+          "orig": "control+ALT+N"
+        },
+        {
+          "command": "<control>FNleftarrow",
+          "name": "Goto file start",
+          "notes": "",
+          "orig": "control+FN+leftarrow"
+        },
+        {
+          "command": "<control>FNrightarrow",
+          "name": "Goto file end",
+          "notes": "",
+          "orig": "control+FN+rightarrow"
+        },
+        {
+          "command": "FNuparrow",
+          "name": "Page up",
+          "notes": "",
+          "orig": "FN+uparrow"
+        },
+        {
+          "command": "FNdownarrow",
+          "name": "Page down",
+          "notes": "",
+          "orig": "FN+downarrow"
+        }
+      ]
+    },
+    {
+      "name": "Find",
+      "commands": [
+        {
+          "command": "<control>F",
+          "name": "Find in file",
+          "notes": "",
+          "orig": "control+F"
+        },
+        {
+          "command": "<control><shift>F",
+          "name": "Find in project",
+          "notes": "",
+          "orig": "control+shift+F"
+        },
+        {
+          "command": "<control>G",
+          "name": "Find next",
+          "notes": "",
+          "orig": "control+G"
+        },
+        {
+          "command": "<control><shift>G",
+          "name": "Find previous",
+          "notes": "",
+          "orig": "control+shift+G"
+        },
+        {
+          "command": "<control><control>G",
+          "name": "Find all and select",
+          "notes": "",
+          "orig": "control+control+G"
+        },
+        {
+          "command": "<control>B",
+          "name": "Add next match to selection",
+          "notes": "",
+          "orig": "control+B"
+        },
+        {
+          "command": "<control><shift>B",
+          "name": "Skip and add next match to selection",
+          "notes": "",
+          "orig": "control+shift+B"
+        }
+      ]
+    },
+    {
+      "name": "Replace",
+      "commands": [
+        {
+          "command": "<control><ALT>F",
+          "name": "Replace",
+          "notes": "",
+          "orig": "control+ALT+F"
+        },
+        {
+          "command": "<control><ALT><shift>F",
+          "name": "Replace in project",
+          "notes": "",
+          "orig": "control+ALT+shift+F"
+        }
+      ]
+    },
+    {
+      "name": "Folding",
+      "commands": [
+        {
+          "command": "<ALT>1",
+          "name": "Collapse all",
+          "notes": "",
+          "orig": "ALT+1"
+        },
+        {
+          "command": "<ALT><shift>1",
+          "name": "Expand all",
+          "notes": "",
+          "orig": "ALT+shift+1"
+        },
+        {
+          "command": "<control><ALT>leftanglebracket",
+          "name": "Collapse current",
+          "notes": "",
+          "orig": "control+ALT+leftanglebracket"
+        },
+        {
+          "command": "<control><ALT>rightanglebracket",
+          "name": "Expand current",
+          "notes": "",
+          "orig": "control+ALT+rightanglebracket"
+        }
+      ]
+    },
+    {
+      "name": "Basic Editing",
+      "commands": [
+        {
+          "command": "<control>C",
+          "name": "Copy",
+          "notes": "",
+          "orig": "control+C"
+        },
+        {
+          "command": "<control>X",
+          "name": "Cut",
+          "notes": "",
+          "orig": "control+X"
+        },
+        {
+          "command": "<control>V",
+          "name": "Paste",
+          "notes": "",
+          "orig": "control+V"
+        },
+        {
+          "command": "<control>Z",
+          "name": "Undo",
+          "notes": "",
+          "orig": "control+Z"
+        },
+        {
+          "command": "<control><shift>Z",
+          "name": "Redo",
+          "notes": "",
+          "orig": "control+shift+Z"
+        }
+      ]
+    },
+    {
+      "name": "Line Manipulation",
+      "commands": [
+        {
+          "command": "<control>rightanglebracket",
+          "name": "Indent current line or selection",
+          "notes": "",
+          "orig": "control+rightanglebracket"
+        },
+        {
+          "command": "<control>leftanglebracket",
+          "name": "Outdent current line or selection",
+          "notes": "",
+          "orig": "control+leftanglebracket"
+        },
+        {
+          "command": "<control>Return",
+          "name": "Insert newline after current line or selection",
+          "notes": "",
+          "orig": "control+Return"
+        },
+        {
+          "command": "<control><shift>Return",
+          "name": "Insert newline before current line or selection",
+          "notes": "",
+          "orig": "control+shift+Return"
+        },
+        {
+          "command": "<control><shift>D",
+          "name": "Delete current line or selection",
+          "notes": "",
+          "orig": "control+shift+D"
+        },
+        {
+          "command": "<control>Backspace",
+          "name": "Delete to line start",
+          "notes": "",
+          "orig": "control+Backspace"
+        },
+        {
+          "command": "<control>Delete",
+          "name": "Delete to line end",
+          "notes": "",
+          "orig": "control+Delete"
+        },
+        {
+          "command": "<control><shift>uparrow",
+          "name": "Move current line or selection up",
+          "notes": "",
+          "orig": "control+shift+uparrow"
+        },
+        {
+          "command": "<control><shift>downarrow",
+          "name": "Move current line or selection down",
+          "notes": "",
+          "orig": "control+shift+downarrow"
+        },
+        {
+          "command": "<control>D",
+          "name": "Duplicate current line or selection",
+          "notes": "",
+          "orig": "control+D"
+        },
+        {
+          "command": "<control><ALT>L",
+          "name": "Split selection into lines",
+          "notes": "",
+          "orig": "control+ALT+L"
+        },
+        {
+          "command": "<control>slash",
+          "name": "Toggle line comment",
+          "notes": "",
+          "orig": "control+slash"
+        },
+        {
+          "command": "<control><shift>slash",
+          "name": "Toggle block comment",
+          "notes": "",
+          "orig": "control+shift+slash"
+        }
+      ]
+    },
+    {
+      "name": "Word Manipulation",
+      "commands": [
+        {
+          "command": "<control>T",
+          "name": "Transpose characters either side of the cursor",
+          "notes": "",
+          "orig": "control+T"
+        },
+        {
+          "command": "<ALT>Backspace",
+          "name": "Delete text to beginning of word",
+          "notes": "",
+          "orig": "ALT+Backspace"
+        },
+        {
+          "command": "<ALT>Delete",
+          "name": "Delete text to end of word",
+          "notes": "",
+          "orig": "ALT+Delete"
+        }
+      ]
+    },
+    {
+      "name": "Cursors",
+      "commands": [
+        {
+          "command": "<ALT><shift>downarrow",
+          "name": "Add cursor to next line",
+          "notes": "",
+          "orig": "ALT+shift+downarrow"
+        },
+        {
+          "command": "<ALT><shift>uparrow",
+          "name": "Add cursor to previous line",
+          "notes": "",
+          "orig": "ALT+shift+uparrow"
+        }
+      ]
+    },
+    {
+      "name": "Selection",
+      "commands": [
+        {
+          "command": "<control>A",
+          "name": "Select all",
+          "notes": "",
+          "orig": "control+A"
+        },
+        {
+          "command": "<control>L",
+          "name": "Select current line",
+          "notes": "",
+          "orig": "control+L"
+        },
+        {
+          "command": "<ALT><shift>leftarrow",
+          "name": "Select to beginning of word",
+          "notes": "",
+          "orig": "ALT+shift+leftarrow"
+        },
+        {
+          "command": "<ALT><shift>rightarrow",
+          "name": "Select to end of word",
+          "notes": "",
+          "orig": "ALT+shift+rightarrow"
+        },
+        {
+          "command": "<control><shift>leftarrow",
+          "name": "Select to first character of line",
+          "notes": "",
+          "orig": "control+shift+leftarrow"
+        },
+        {
+          "command": "<control><shift>rightarrow",
+          "name": "Select to last character of line",
+          "notes": "",
+          "orig": "control+shift+rightarrow"
+        },
+        {
+          "command": "<control><shift>uparrow",
+          "name": "Select to beginning of document",
+          "notes": "",
+          "orig": "control+shift+uparrow"
+        },
+        {
+          "command": "<control><shift>downarrow",
+          "name": "Select to end of document",
+          "notes": "",
+          "orig": "control+shift+downarrow"
+        },
+        {
+          "command": "<control>U",
+          "name": "Undo selection",
+          "notes": "",
+          "orig": "control+U"
+        },
+        {
+          "command": "<control><shift>U",
+          "name": "Redo selection",
+          "notes": "",
+          "orig": "control+shift+U"
+        }
+      ]
+    },
+    {
+      "name": "Hints",
+      "commands": [
+        {
+          "command": "<control>space",
+          "name": "Show code hints",
+          "notes": "",
+          "orig": "control+space"
+        },
+        {
+          "command": "<control><shift>space",
+          "name": "Show parameter hint",
+          "notes": "",
+          "orig": "control+shift+space"
+        }
+      ]
+    },
+    {
+      "name": "Live Preview",
+      "commands": [
+        {
+          "command": "<control><ALT>P",
+          "name": "Enable live preview",
+          "notes": "",
+          "orig": "control+ALT+P"
+        },
+        {
+          "command": "<control><shift>C",
+          "name": "Toggle live preview highlight",
+          "notes": "",
+          "orig": "control+shift+C"
+        },
+        {
+          "command": "<control><shift>R",
+          "name": "Force reload of live preview",
+          "notes": "",
+          "orig": "control+shift+R"
+        }
+      ]
+    },
+    {
+      "name": "Debugging",
+      "commands": [
+        {
+          "command": "<control><ALT>I",
+          "name": "Show developer tools",
+          "notes": "",
+          "orig": "control+ALT+I"
+        },
+        {
+          "command": "<control>R",
+          "name": "Reload with extensions",
+          "notes": "",
+          "orig": "control+R"
+        },
+        {
+          "command": "<control>controlminusR",
+          "name": "Reload without extensions",
+          "notes": "",
+          "orig": "control+controlminusR"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "commands": [
+        {
+          "command": "F1",
+          "name": "Help",
+          "notes": "",
+          "orig": "F1"
+        },
+        {
+          "command": "F2",
+          "name": "Rename file",
+          "notes": "",
+          "orig": "F2"
+        },
+        {
+          "command": "<control>Plus",
+          "name": "Increase font size",
+          "notes": "",
+          "orig": "control+Plus"
+        },
+        {
+          "command": "<control>Minus",
+          "name": "Decrease font size",
+          "notes": "",
+          "orig": "control+Minus"
+        },
+        {
+          "command": "<control>0",
+          "name": "Restore font size to default",
+          "notes": "",
+          "orig": "control+0"
+        }
+      ]
+    }
+  ],
+  "title": "Brackets"
+}

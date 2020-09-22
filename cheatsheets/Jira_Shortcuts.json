@@ -1,0 +1,241 @@
+{
+  "categories": [
+    {
+      "name": "Global Shortcuts",
+      "commands": [
+        {
+          "command": "gd",
+          "name": "Go to dasboard",
+          "notes": "",
+          "orig": "gd"
+        },
+        {
+          "command": "gp",
+          "name": "Browse to a project",
+          "notes": "",
+          "orig": "gp"
+        },
+        {
+          "command": "ga",
+          "name": "Go to agile",
+          "notes": "",
+          "orig": "ga"
+        },
+        {
+          "command": "gi",
+          "name": "Find issues",
+          "notes": "",
+          "orig": "gi"
+        },
+        {
+          "command": "gg",
+          "name": "Administration quick search",
+          "notes": "",
+          "orig": "gg"
+        },
+        {
+          "command": "slash",
+          "name": "Quick search",
+          "notes": "",
+          "orig": "slash"
+        },
+        {
+          "command": "c",
+          "name": "Create an issue",
+          "notes": "",
+          "orig": "c"
+        },
+        {
+          "command": "decimalpoint",
+          "name": "Quick operations",
+          "notes": "",
+          "orig": "decimalpoint"
+        },
+        {
+          "command": "?",
+          "name": "Open shortcut help",
+          "notes": "",
+          "orig": "?"
+        },
+        {
+          "command": "<control><ALT>S",
+          "name": "Form submit",
+          "notes": "",
+          "orig": "control+ALT+S"
+        }
+      ]
+    },
+    {
+      "name": "Navigating Issues",
+      "commands": [
+        {
+          "command": "o",
+          "name": "View selected issue",
+          "notes": "",
+          "orig": "o"
+        },
+        {
+          "command": "j",
+          "name": "Next issue",
+          "notes": "",
+          "orig": "j"
+        },
+        {
+          "command": "k",
+          "name": "Previous issue",
+          "notes": "",
+          "orig": "k"
+        },
+        {
+          "command": "leftanglebracket",
+          "name": "Dock/undock the filters panel",
+          "notes": "",
+          "orig": "leftanglebracket"
+        },
+        {
+          "command": "n",
+          "name": "Next activity",
+          "notes": "",
+          "orig": "n"
+        },
+        {
+          "command": "p",
+          "name": "Previous activity",
+          "notes": "",
+          "orig": "p"
+        },
+        {
+          "command": "f",
+          "name": "Focus search field",
+          "notes": "",
+          "orig": "f"
+        },
+        {
+          "command": "u",
+          "name": "Search for issues",
+          "notes": "",
+          "orig": "u"
+        },
+        {
+          "command": "t",
+          "name": "Switch filter view",
+          "notes": "",
+          "orig": "t"
+        },
+        {
+          "command": "z",
+          "name": "Detail view order by",
+          "notes": "",
+          "orig": "z"
+        }
+      ]
+    },
+    {
+      "name": "Issue Actions",
+      "commands": [
+        {
+          "command": "e",
+          "name": "Edit issue",
+          "notes": "",
+          "orig": "e"
+        },
+        {
+          "command": "a",
+          "name": "Assign issue",
+          "notes": "",
+          "orig": "a"
+        },
+        {
+          "command": "m",
+          "name": "Comment on issue",
+          "notes": "",
+          "orig": "m"
+        },
+        {
+          "command": "l",
+          "name": "Edit issue labels",
+          "notes": "",
+          "orig": "l"
+        },
+        {
+          "command": ",",
+          "name": "Just to fields for editing",
+          "notes": "",
+          "orig": ","
+        },
+        {
+          "command": "i",
+          "name": "Assign to me",
+          "notes": "",
+          "orig": "i"
+        }
+      ]
+    },
+    {
+      "name": "Agile Shortcuts",
+      "commands": [
+        {
+          "command": "1",
+          "name": "Plan mode",
+          "notes": "",
+          "orig": "1"
+        },
+        {
+          "command": "2",
+          "name": "Work mode",
+          "notes": "",
+          "orig": "2"
+        },
+        {
+          "command": "3",
+          "name": "Report mode",
+          "notes": "",
+          "orig": "3"
+        },
+        {
+          "command": "z",
+          "name": "Presentation mode",
+          "notes": "",
+          "orig": "z"
+        },
+        {
+          "command": "n",
+          "name": "Next column",
+          "notes": "",
+          "orig": "n"
+        },
+        {
+          "command": "p",
+          "name": "Previous column",
+          "notes": "",
+          "orig": "p"
+        },
+        {
+          "command": "t",
+          "name": "Hide/show detail view",
+          "notes": "",
+          "orig": "t"
+        },
+        {
+          "command": "minus",
+          "name": "Toggle all swimlanes",
+          "notes": "",
+          "orig": "minus"
+        },
+        {
+          "command": "st",
+          "name": "Send to top",
+          "notes": "",
+          "orig": "st"
+        },
+        {
+          "command": "sb",
+          "name": "Send to bottom",
+          "notes": "",
+          "orig": "sb"
+        }
+      ]
+    }
+  ],
+  "title": "Jira Shortcuts"
+}

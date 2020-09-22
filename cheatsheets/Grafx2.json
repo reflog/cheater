@@ -1,0 +1,874 @@
+{
+  "categories": [
+    {
+      "name": "Move",
+      "commands": [
+        {
+          "command": "uparrow",
+          "name": "Scroll up",
+          "notes": "Scrolls the picture up, both in magnify and normal mode. This hotkey cannot be removed.",
+          "orig": "uparrow"
+        },
+        {
+          "command": "downarrow",
+          "name": "Scroll down",
+          "notes": "Scrolls the picture down, both in magnify and normal mode. This hotkey cannot be removed.",
+          "orig": "downarrow"
+        },
+        {
+          "command": "leftarrow",
+          "name": "Scroll left",
+          "notes": "Scrolls the picture to the left, both in magnify and normal mode. This hotkey cannot be removed.",
+          "orig": "leftarrow"
+        },
+        {
+          "command": "rightarrow",
+          "name": "Scroll right",
+          "notes": "Scrolls the picture to the right, both in magnify and normal mode. This hotkey cannot be removed.",
+          "orig": "rightarrow"
+        },
+        {
+          "command": "<shift>uparrow",
+          "name": "Faster scroll up",
+          "notes": "Used to scroll upwards in the picture fast, either in magnify and normal mode.",
+          "orig": "shift+uparrow"
+        },
+        {
+          "command": "<shift>downarrow",
+          "name": "Faster scroll down",
+          "notes": "Used to scroll downwards in the picture fast, either in magnify and normal mode.",
+          "orig": "shift+downarrow"
+        },
+        {
+          "command": "<shift>leftarrow",
+          "name": "Faster scroll left",
+          "notes": "Used to scroll to the left in the picture fast, either in magnify and normal mode.",
+          "orig": "shift+leftarrow"
+        },
+        {
+          "command": "<shift>rightarrow",
+          "name": "Faster scroll right",
+          "notes": "Used to scroll to the right in the picture fast, either in magnify and normal mode.",
+          "orig": "shift+rightarrow"
+        },
+        {
+          "command": "<ALT>uparrow",
+          "name": "Slower scroll up",
+          "notes": "Used to scroll upwards in the picture pixel by pixel, either in magnify and normal mode.",
+          "orig": "ALT+uparrow"
+        },
+        {
+          "command": "<ALT>downarrow",
+          "name": "Slower scroll down",
+          "notes": "Used to scroll downwards in the picture pixel by pixel, either in magnify andnormal mode. normal mode.",
+          "orig": "ALT+downarrow"
+        },
+        {
+          "command": "<ALT>leftarrow",
+          "name": "Slower scroll left",
+          "notes": "Used to scroll to the left in the picture pixel by pixel, either in magnify and normal mode.",
+          "orig": "ALT+leftarrow"
+        },
+        {
+          "command": "<ALT>rightarrow",
+          "name": "Slower scroll right",
+          "notes": "Used to scroll to the right in the picture pixel by pixel, either in magnify and normal mode.",
+          "orig": "ALT+rightarrow"
+        }
+      ]
+    },
+    {
+      "name": "Mouse emulation",
+      "commands": [
+        {
+          "command": "<control>uparrow",
+          "name": "Move mouse cursor 1 pixel up",
+          "notes": "Used to simulate a very small mouse deplacement upwards. Its very useful when you want a ultra-high precision.",
+          "orig": "control+uparrow"
+        },
+        {
+          "command": "<control>downarrow",
+          "name": "Move mouse cursor 1 pixel down",
+          "notes": "Used to simulate a very small mouse deplacement downwards. Its very useful when you want a ultra-high precision.",
+          "orig": "control+downarrow"
+        },
+        {
+          "command": "<control>leftarrow",
+          "name": "Move mouse cursor 1 pixel left",
+          "notes": "Used to simulate a very small mouse deplacement to the left. Its very useful when you want a ultra-high precision.",
+          "orig": "control+leftarrow"
+        },
+        {
+          "command": "<control>rightarrow",
+          "name": "Move mouse cursor 1 pixel right",
+          "notes": "Used to simulate a very small mouse deplacement to the right. Its very useful when you want a ultra-high precision.",
+          "orig": "control+rightarrow"
+        },
+        {
+          "command": "space",
+          "name": "Simulate left mouse click",
+          "notes": "Used to simulate a click with the left mouse button.. Its very useful when you want a ultra-high precision.",
+          "orig": "space"
+        },
+        {
+          "command": "<shift>space",
+          "name": "Simulate right mouse click",
+          "notes": "Used to simulate a click with the right mouse button.. Its very useful when you want a ultra-high precision.",
+          "orig": "shift+space"
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "commands": [
+        {
+          "command": "<shift>F10",
+          "name": "Settings",
+          "notes": "Opens a menu which permits you to set the dimension of your picture, and to modify some parameters of the program.",
+          "orig": "shift+F10"
+        },
+        {
+          "command": "Return",
+          "name": "Screen resolution menu",
+          "notes": "Opens a menu where you can choose the dimensions of the screen in which you want to draw among the numerous X and SVGA proposed modes.",
+          "orig": "Return"
+        },
+        {
+          "command": "<shift>Return",
+          "name": "\"Safety\" resolution",
+          "notes": "Set resolution to 320x200. This can be useful if you choosed a resolution that is not supported by your monitor and video card. Cannot be removed.",
+          "orig": "shift+Return"
+        },
+        {
+          "command": "F10",
+          "name": "Show/hide option menu",
+          "notes": "Switch the tool bar display on/off. This hot-key cannot be removed.",
+          "orig": "F10"
+        },
+        {
+          "command": "F9",
+          "name": "Show/hide cursor",
+          "notes": "Switch the cursor display on/off. This only works on the \"small cross\" and \"hand\" cursors.",
+          "orig": "F9"
+        }
+      ]
+    },
+    {
+      "name": "Brush",
+      "commands": [
+        {
+          "command": "Del",
+          "name": "Set paintbrush to 1 pixel",
+          "notes": "Useful when you want to use a \"single-pixel-brush\".",
+          "orig": "Del"
+        },
+        {
+          "command": "F4",
+          "name": "Paintbrush choice",
+          "notes": "Opens a menu where you can choose a paintbrush out of 24 predefined ones.",
+          "orig": "F4"
+        },
+        {
+          "command": "<shift>F4",
+          "name": "Monochrome brush",
+          "notes": "Turn your current user-defined brush into a single colored one. All non-transparent colors are set to current foreground color.",
+          "orig": "shift+F4"
+        }
+      ]
+    },
+    {
+      "name": "Paint",
+      "commands": [
+        {
+          "command": "U",
+          "name": "Undo (Oops!)",
+          "notes": "Cancel the last action which modified the picture. This has no effect after a jump to the spare page, loading a picture or modifying its size.",
+          "orig": "U"
+        },
+        {
+          "command": "<shift>U",
+          "name": "Redo",
+          "notes": "Redo the last undone action. This has no effect after a jump to the spare page, loading a picture or modifying its size.",
+          "orig": "shift+U"
+        },
+        {
+          "command": "D",
+          "name": "Freehand drawing",
+          "notes": "Set the drawing mode to the classical freehand one.",
+          "orig": "D"
+        },
+        {
+          "command": "<shift>D",
+          "name": "Switch freehand drawing mode",
+          "notes": "Switch between the 3 ways to use freehand drawing. These modes are: continuous, discontinuous and point by point.",
+          "orig": "shift+D"
+        },
+        {
+          "command": "<control>D",
+          "name": "Continuous freehand drawing",
+          "notes": "Switch directly to continuous freehand drawing mode.",
+          "orig": "control+D"
+        },
+        {
+          "command": "L",
+          "name": "Line",
+          "notes": "Allows you to draw lines.",
+          "orig": "L"
+        },
+        {
+          "command": "<shift>L",
+          "name": "Knotted lines",
+          "notes": "Allows you to draw linked lines. This mode can also be called \"Polyline\".",
+          "orig": "shift+L"
+        },
+        {
+          "command": "A",
+          "name": "Spray",
+          "notes": "Allows you to spray brushes randomly in the picture.",
+          "orig": "A"
+        },
+        {
+          "command": "<shift>A",
+          "name": "Spray menu",
+          "notes": "Opens a menu in which you can configure the spray flow and size.",
+          "orig": "shift+A"
+        },
+        {
+          "command": "F",
+          "name": "Flood-fill",
+          "notes": "Allows you to fill an area of the picture made of pixels of the same color.",
+          "orig": "F"
+        },
+        {
+          "command": "<shift>F",
+          "name": "Replace color",
+          "notes": "Allows you to replace all the pixels of the color pointed by the mouse with the fore-color or the back-color.",
+          "orig": "shift+F"
+        },
+        {
+          "command": "I",
+          "name": "Beziers curves",
+          "notes": "Allows you to draw Beziers curves.",
+          "orig": "I"
+        },
+        {
+          "command": "<shift>I",
+          "name": "Beziers curve with 3 or 4 points",
+          "notes": "Allows you to choose whether you want to draw Beziers curves with 3 or 4 points.",
+          "orig": "shift+I"
+        },
+        {
+          "command": "R",
+          "name": "Empty rectangle",
+          "notes": "Allows you to draw a rectangle using the brush.",
+          "orig": "R"
+        },
+        {
+          "command": "<shift>R",
+          "name": "Filled rectangle",
+          "notes": "Allows you to draw a filled rectangle.",
+          "orig": "shift+R"
+        },
+        {
+          "command": "C",
+          "name": "Empty circle",
+          "notes": "Allows you to draw a circle using the brush.",
+          "orig": "C"
+        },
+        {
+          "command": "<control>C",
+          "name": "Empty ellipse",
+          "notes": "Allows you to draw an ellipse using the brush.",
+          "orig": "control+C"
+        },
+        {
+          "command": "<shift>C",
+          "name": "Filled circle",
+          "notes": "Allows you to draw a filled circle.",
+          "orig": "shift+C"
+        },
+        {
+          "command": "<control><shift>C",
+          "name": "Filled ellipse",
+          "notes": "Allows you to draw a filled ellipse.",
+          "orig": "control+shift+C"
+        },
+        {
+          "command": "N",
+          "name": "Empty polygon",
+          "notes": "Allows you to draw a polygon using the brush.",
+          "orig": "N"
+        },
+        {
+          "command": "<control>N",
+          "name": "Empty \"polyform\"",
+          "notes": "Allows you to draw a freehand polygon using the brush.",
+          "orig": "control+N"
+        },
+        {
+          "command": "<shift>N",
+          "name": "Filled polygon",
+          "notes": "Allows you to draw a filled polygon.",
+          "orig": "shift+N"
+        },
+        {
+          "command": "<control><shift>N",
+          "name": "Filled \"polyform\"",
+          "notes": "Allows you to draw a filled freehand polygon.",
+          "orig": "control+shift+N"
+        },
+        {
+          "command": "<ALT>R",
+          "name": "Rectangle with gradation",
+          "notes": "Allows you to draw a rectangle with a color gradation.",
+          "orig": "ALT+R"
+        },
+        {
+          "command": "<ALT>G",
+          "name": "Gradation menu",
+          "notes": "Allows you to configure the way color gradations are calculated.",
+          "orig": "ALT+G"
+        },
+        {
+          "command": "<ALT>C",
+          "name": "Sphere with gradation",
+          "notes": "Allows you to draw a rectangle with a color gradation.",
+          "orig": "ALT+C"
+        },
+        {
+          "command": "<ALT><shift>C",
+          "name": "Ellipse with gradation",
+          "notes": "Allows you to draw an ellipse filled with a color gradation.",
+          "orig": "ALT+shift+C"
+        },
+        {
+          "command": "T",
+          "name": "Text",
+          "notes": "Opens a menu which permits you to type in a character string and to choose a font, and then creates a new user-defined brush fitting to your choices.",
+          "orig": "T"
+        },
+        {
+          "command": ",",
+          "name": "Shrink paintbrush",
+          "notes": "Decrease the width of the paintbrush if it is special circle or square.",
+          "orig": ","
+        },
+        {
+          "command": "decimalpoint",
+          "name": "Enlarge paintbrush",
+          "notes": "Increase the width of the paintbrush if it is special circle or square.",
+          "orig": "decimalpoint"
+        }
+      ]
+    },
+    {
+      "name": "Picture",
+      "commands": [
+        {
+          "command": "KP+5",
+          "name": "Adjust picture",
+          "notes": "Allows you to move the whole picture in order to re-center it. Notice that what gets out from a side reappears on the other.",
+          "orig": "KP 5"
+        },
+        {
+          "command": "<shift>KP+5",
+          "name": "Flip/shrink picture menu",
+          "notes": "Opens a menu which allows you to flip the picture horizontally/vertically or to shrink it to half-scale horizontally and/or vertically.",
+          "orig": "shift+KP 5"
+        }
+      ]
+    },
+    {
+      "name": "Effects",
+      "commands": [
+        {
+          "command": "E",
+          "name": "Drawing effects",
+          "notes": "Opens a menu where you can enable/disable and configure the drawing effects listed below.",
+          "orig": "E"
+        },
+        {
+          "command": "F5",
+          "name": "Shade mode",
+          "notes": "Allows you to shade or lighten some pixels of the picture belonging to a color range, in addition of any drawing tool.",
+          "orig": "F5"
+        },
+        {
+          "command": "<shift>F5",
+          "name": "Shade menu",
+          "notes": "Opens a menu where you can choose color ranges to use with the Shade mode. This menu also contains parameters used both in Shade and Quick-shade modes.",
+          "orig": "shift+F5"
+        },
+        {
+          "command": "<control>F5",
+          "name": "Quick-shade mode",
+          "notes": "Does the same thing as shade mode with a simpler method (faster to define but a bit less powerful).",
+          "orig": "control+F5"
+        },
+        {
+          "command": "<control><shift>F5",
+          "name": "Quick-shade menu",
+          "notes": "Opens a menu where you can define the parameters of the quick-shade mode.",
+          "orig": "control+shift+F5"
+        },
+        {
+          "command": "F6",
+          "name": "Stencil mode",
+          "notes": "Allows you to mask colors that must not be affected when you are drawing.",
+          "orig": "F6"
+        },
+        {
+          "command": "<shift>F6",
+          "name": "Stencil menu",
+          "notes": "Opens a menu where you can choose colors masked by the Stencil mode.",
+          "orig": "shift+F6"
+        },
+        {
+          "command": "<ALT>F6",
+          "name": "Mask mode",
+          "notes": "Allows you to mask colors of the spare page that will keep you from drawing. This mode should be called \"True stencil\".",
+          "orig": "ALT+F6"
+        },
+        {
+          "command": "<ALT><shift>F6",
+          "name": "Mask menu",
+          "notes": "Opens a menu where you can choose colors for the Mask mode.",
+          "orig": "ALT+shift+F6"
+        },
+        {
+          "command": "G",
+          "name": "Grid mode",
+          "notes": "Force the cursor to snap up grid points.",
+          "orig": "G"
+        },
+        {
+          "command": "<shift>G",
+          "name": "Grid menu",
+          "notes": "Open a menu where you can configure the grid used by Grid mode.",
+          "orig": "shift+G"
+        },
+        {
+          "command": "<control>G",
+          "name": "Sieve mode",
+          "notes": "Only draws pixels on certain positions matching with a sieve.",
+          "orig": "control+G"
+        },
+        {
+          "command": "<control><shift>G",
+          "name": "Sieve menu",
+          "notes": "Opens a menu where you can configure the sieve.",
+          "orig": "control+shift+G"
+        },
+        {
+          "command": "<control><ALT>G",
+          "name": "Invert sieve",
+          "notes": "Inverts the pattern defined in the Sieve menu.",
+          "orig": "control+ALT+G"
+        },
+        {
+          "command": "F7",
+          "name": "Colorize mode",
+          "notes": "Allows you to colorize the pixels on which your brush is pasted. This permits you to make transparency effects.",
+          "orig": "F7"
+        },
+        {
+          "command": "<shift>F7",
+          "name": "Colorize menu",
+          "notes": "Opens a menu where you can give the opacity percentage for Colorize mode.",
+          "orig": "shift+F7"
+        },
+        {
+          "command": "F8",
+          "name": "Smooth mode",
+          "notes": "Soften pixels on which your brush is pasted.",
+          "orig": "F8"
+        },
+        {
+          "command": "<shift>F8",
+          "name": "Smooth menu",
+          "notes": "Opens a menu where you can define the Smooth matrix.",
+          "orig": "shift+F8"
+        },
+        {
+          "command": "<ALT>F8",
+          "name": "Smear mode",
+          "notes": "Smears the pixels when you move your brush on the picture.",
+          "orig": "ALT+F8"
+        },
+        {
+          "command": "<ALT>B",
+          "name": "Tiling mode",
+          "notes": "Puts parts of the brush where you draw.",
+          "orig": "ALT+B"
+        },
+        {
+          "command": "<ALT><shift>B",
+          "name": "Tiling menu",
+          "notes": "Opens a menu where you can configure the origin of the tiling.",
+          "orig": "ALT+shift+B"
+        }
+      ]
+    },
+    {
+      "name": "Brush",
+      "commands": [
+        {
+          "command": "B",
+          "name": "Classical brush grabbing",
+          "notes": "Allows you to pick a brush defined within a rectangle.",
+          "orig": "B"
+        },
+        {
+          "command": "<control>B",
+          "name": "\"Lasso\" brush grabbing",
+          "notes": "Allows you to pick a brush defined within a freehand polygon.",
+          "orig": "control+B"
+        },
+        {
+          "command": "<shift>B",
+          "name": "Get previous brush back",
+          "notes": "Restore the last user-defined brush.",
+          "orig": "shift+B"
+        },
+        {
+          "command": "X",
+          "name": "Horizontal brush flipping",
+          "notes": "Reverse brush horizontally.",
+          "orig": "X"
+        },
+        {
+          "command": "Y",
+          "name": "Vertical brush flipping",
+          "notes": "Reverse brush vertically.",
+          "orig": "Y"
+        },
+        {
+          "command": "Z",
+          "name": "90ø brush rotation",
+          "notes": "Rotate the user-defined brush by 90ø (counter-clockwise).",
+          "orig": "Z"
+        },
+        {
+          "command": "<shift>Z",
+          "name": "180ø brush rotation",
+          "notes": "Rotate the user-defined brush by 180ø.",
+          "orig": "shift+Z"
+        },
+        {
+          "command": "S",
+          "name": "Strech brush",
+          "notes": "Allows you to resize the user-defined brush.",
+          "orig": "S"
+        },
+        {
+          "command": "<shift>S",
+          "name": "Distort brush",
+          "notes": "Allows you to distort the user-defined brush.",
+          "orig": "shift+S"
+        },
+        {
+          "command": "O",
+          "name": "Outline brush",
+          "notes": "Outlines the user-defined brush with the fore color.",
+          "orig": "O"
+        },
+        {
+          "command": "<shift>O",
+          "name": "Nibble brush",
+          "notes": "Deletes the borders of the user-defined brush. This does the opposite of the Outline option.",
+          "orig": "shift+O"
+        },
+        {
+          "command": "F11",
+          "name": "Get colors from brush",
+          "notes": "Copy colors of the spare page that are used in the brush.",
+          "orig": "F11"
+        },
+        {
+          "command": "F12",
+          "name": "Recolorize brush",
+          "notes": "Recolorize pixels of the user-defined brush in order to get a brush which looks like the one grabbed in the spare page.",
+          "orig": "F12"
+        },
+        {
+          "command": "W",
+          "name": "Rotate by any angle",
+          "notes": "Rotate the brush by an angle that you can define.",
+          "orig": "W"
+        },
+        {
+          "command": "<control><ALT>B",
+          "name": "Brush effects menu",
+          "notes": "Opens a menu which proposes different effects on the user-defined brush.",
+          "orig": "control+ALT+B"
+        },
+        {
+          "command": "<control>KP+5",
+          "name": "Center brush attachment point",
+          "notes": "Set the attachement of the user-defined brush to its center.",
+          "orig": "control+KP 5"
+        },
+        {
+          "command": "<control>Home",
+          "name": "Top-left brush attachment point",
+          "notes": "Set the attachement of the user-defined brush to its top-left corner.",
+          "orig": "control+Home"
+        },
+        {
+          "command": "<control>Page+Up",
+          "name": "Top-right brush attachment point",
+          "notes": "Set the attachement of the user-defined brush to its top-right corner.",
+          "orig": "control+Page Up"
+        },
+        {
+          "command": "<control>End",
+          "name": "Bottom-left brush attachment point",
+          "notes": "Set the attachement of the user-defined brush to its bottom-left corner.",
+          "orig": "control+End"
+        },
+        {
+          "command": "<control>Page+Down",
+          "name": "Bottom-right brush attachment point",
+          "notes": "Set the attachement of the user-defined brush to its bottom-right corner.",
+          "orig": "control+Page Down"
+        }
+      ]
+    },
+    {
+      "name": "Colors",
+      "commands": [
+        {
+          "command": "`",
+          "name": "Pipette",
+          "notes": "Allows you to copy the color of a pixel in the picture into the foreground or background color.",
+          "orig": "`"
+        },
+        {
+          "command": "<shift>`",
+          "name": "Swap foreground/background colors",
+          "notes": "Invert foreground and background colors.",
+          "orig": "shift+`"
+        },
+        {
+          "command": "P",
+          "name": "Palette menu",
+          "notes": "Opens a menu which allows you to modify the current palette.",
+          "orig": "P"
+        },
+        {
+          "command": "<shift>P",
+          "name": "Secondary palette menu",
+          "notes": "Opens a menu which allows you to define color series and some tagged colors.",
+          "orig": "shift+P"
+        },
+        {
+          "command": "<control>P",
+          "name": "Exclude colors menu",
+          "notes": "Opens a menu which allows you to define the colors you dont want to use in modes such as Smooth and Transparency, or when remapping a brush.",
+          "orig": "control+P"
+        },
+        {
+          "command": "Page+Up",
+          "name": "Scroll palette to the left",
+          "notes": "Scroll palette in the tool bar to the left, column by column.",
+          "orig": "Page Up"
+        },
+        {
+          "command": "Page+Down",
+          "name": "Scroll palette to the right",
+          "notes": "Scroll palette in the tool bar to the right, column by column.",
+          "orig": "Page Down"
+        },
+        {
+          "command": "<shift>Page+Up",
+          "name": "Scroll palette to the left faster",
+          "notes": "Scroll palette in the tool bar to the left, 8 columns by 8 columns.",
+          "orig": "shift+Page Up"
+        },
+        {
+          "command": "<shift>Page+Down",
+          "name": "Scroll palette to the right faster",
+          "notes": "Scroll palette in the tool bar to the right, 8 columns by 8 columns.",
+          "orig": "shift+Page Down"
+        },
+        {
+          "command": "rightanglebracket",
+          "name": "Next foreground color",
+          "notes": "Set the foreground color to the next in the palette.",
+          "orig": "rightanglebracket"
+        },
+        {
+          "command": "leftanglebracket",
+          "name": "Previous foreground color",
+          "notes": "Set the foreground color to the previous in the palette.",
+          "orig": "leftanglebracket"
+        },
+        {
+          "command": "<shift>rightanglebracket",
+          "name": "Next background color",
+          "notes": "Set the background color to the next in the palette.",
+          "orig": "shift+rightanglebracket"
+        },
+        {
+          "command": "<shift>leftanglebracket",
+          "name": "Previous background color",
+          "notes": "Set the background color to the previous in the palette.",
+          "orig": "shift+leftanglebracket"
+        },
+        {
+          "command": "equal",
+          "name": "Next user-defined forecolor",
+          "notes": "Set the foreground color to the next in the user-defined color series.",
+          "orig": "equal"
+        },
+        {
+          "command": "minus",
+          "name": "Previous user-defined forecolor",
+          "notes": "Set the foreground color to the previous in the user-defined color series.",
+          "orig": "minus"
+        },
+        {
+          "command": "<shift>equal",
+          "name": "Next user-defined backcolor",
+          "notes": "Set the background color to the next in the user-defined color series.",
+          "orig": "shift+equal"
+        },
+        {
+          "command": "<shift>minus",
+          "name": "Previous user-defined backcolor",
+          "notes": "Set the background color to the previous in the user-defined color series.",
+          "orig": "shift+minus"
+        }
+      ]
+    },
+    {
+      "name": "Zoom",
+      "commands": [
+        {
+          "command": "M",
+          "name": "Magnifier mode",
+          "notes": "Allows you to zoom into the picture.",
+          "orig": "M"
+        },
+        {
+          "command": "<shift>M",
+          "name": "Zoom factor menu",
+          "notes": "Opens a menu where you can choose a magnifying factor.",
+          "orig": "shift+M"
+        },
+        {
+          "command": "KP+",
+          "name": "Zoom in",
+          "notes": "Increase magnifying factor.",
+          "orig": "KP +"
+        },
+        {
+          "command": "KP+minus",
+          "name": "Zoom out",
+          "notes": "Decrease magnifying factor.",
+          "orig": "KP minus"
+        }
+      ]
+    },
+    {
+      "name": "Divers",
+      "commands": [
+        {
+          "command": "Q",
+          "name": "Quit program",
+          "notes": "Allows you to leave the program. If modifications were not saved, confirmation is asked.",
+          "orig": "Q"
+        },
+        {
+          "command": "F1",
+          "name": "Help and credits",
+          "notes": "Opens a window where you can get information about the program.",
+          "orig": "F1"
+        },
+        {
+          "command": "<shift>F1",
+          "name": "Statistics",
+          "notes": "Displays miscellaneous more or less useful information.",
+          "orig": "shift+F1"
+        }
+      ]
+    },
+    {
+      "name": "Save/Load",
+      "commands": [
+        {
+          "command": "F2",
+          "name": "Save picture as...",
+          "notes": "Opens a file-selector that allows you to save your picture with a new path-name.",
+          "orig": "F2"
+        },
+        {
+          "command": "<shift>F2",
+          "name": "Save picture",
+          "notes": "Saves your picture with the last name you gave it.",
+          "orig": "shift+F2"
+        },
+        {
+          "command": "F3",
+          "name": "Load picture",
+          "notes": "Opens a file-selector that allows you to load a new picture.",
+          "orig": "F3"
+        },
+        {
+          "command": "<shift>F3",
+          "name": "Re-load picture",
+          "notes": "Re-load the current picture. This allows you to cancel modifications made since last saving.",
+          "orig": "shift+F3"
+        },
+        {
+          "command": "<control>F2",
+          "name": "Save brush",
+          "notes": "Opens a file-selector that allows you to save your current user-defined brush.",
+          "orig": "control+F2"
+        },
+        {
+          "command": "<control>F3",
+          "name": "Load brush",
+          "notes": "Opens a file-selector that allows you to load a brush.",
+          "orig": "control+F3"
+        }
+      ]
+    },
+    {
+      "name": "Pages",
+      "commands": [
+        {
+          "command": "Tab",
+          "name": "Jump to spare page",
+          "notes": "Swap current page and spare page.",
+          "orig": "Tab"
+        },
+        {
+          "command": "<shift>Tab",
+          "name": "Copy current page to spare page",
+          "notes": "Copy current page to spare page.",
+          "orig": "shift+Tab"
+        },
+        {
+          "command": "<shift>Del",
+          "name": "Kill",
+          "notes": "Kills the current page. It actually removes the current page from the list of \"Undo\" pages.",
+          "orig": "shift+Del"
+        },
+        {
+          "command": "Backspace",
+          "name": "Clear page",
+          "notes": "Clears the picture with the first color of the palette (usually black).",
+          "orig": "Backspace"
+        },
+        {
+          "command": "<shift>Backspace",
+          "name": "Clear page with backcolor",
+          "notes": "Clears the picture with the backcolor.",
+          "orig": "shift+Backspace"
+        }
+      ]
+    }
+  ],
+  "title": "Grafx2"
+}
